@@ -1,6 +1,6 @@
 import {Injectable, inject} from '@angular/core';
 import {NavigationEnd, Router} from '@angular/router';
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 import {type Observable, Subject, map, merge, withLatestFrom} from 'rxjs';
 import {filter} from 'rxjs/operators';
 import type {CMSPageShort, CMSPages} from '../../cms/models/cms-page.model';

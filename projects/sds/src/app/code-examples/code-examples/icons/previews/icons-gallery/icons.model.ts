@@ -1,4 +1,4 @@
-import type {ObEIcon} from '@oblique/oblique';
+import type {ObEIcon} from '@dariopog-foitt/oblique';
 import type {ObECategory} from './categories.model';
 
 type ObECategoryValue = `${ObECategory}`;

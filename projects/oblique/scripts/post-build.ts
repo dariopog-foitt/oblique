@@ -80,7 +80,7 @@ class PostBuild extends StaticScript {
 		PostBuild.replaceInFiles(
 			['../../dist/oblique/styles/css/oblique-components.css'],
 			'cover-background.jpg',
-			'@oblique/oblique/assets/images/cover-background.jpg'
+			'@dariopog-foitt/oblique/assets/images/cover-background.jpg'
 		);
 	}
 

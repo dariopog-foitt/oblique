@@ -3,7 +3,7 @@ import {PaginatorCodeExamplesComponent} from './paginator-code-examples.componen
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {By} from '@angular/platform-browser';
 import {MatPaginator} from '@angular/material/paginator';
-import {ObMockTranslateService} from '@oblique/oblique';
+import {ObMockTranslateService} from '@dariopog-foitt/oblique';
 import {TranslateService} from '@ngx-translate/core';
 
 describe(PaginatorCodeExamplesComponent.name, () => {

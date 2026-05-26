@@ -1,7 +1,7 @@
 import {HTTP_INTERCEPTORS, HttpClient} from '@angular/common/http';
 import {HttpClientTestingModule, HttpTestingController} from '@angular/common/http/testing';
 import {TestBed} from '@angular/core/testing';
-import {ObSpinnerService} from '@oblique/oblique';
+import {ObSpinnerService} from '@dariopog-foitt/oblique';
 import {HttpApiInterceptor} from './http-api-interceptor';
 
 describe('HttpApiInterceptor', () => {

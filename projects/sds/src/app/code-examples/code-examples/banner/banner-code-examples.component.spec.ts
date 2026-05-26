@@ -4,7 +4,7 @@ import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {BannerCodeExamplesComponent} from './banner-code-examples.component';
 import {By} from '@angular/platform-browser';
-import {ObButtonDirective, provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {ObButtonDirective, provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe(BannerCodeExamplesComponent.name, () => {
 	let component: BannerCodeExamplesComponent;

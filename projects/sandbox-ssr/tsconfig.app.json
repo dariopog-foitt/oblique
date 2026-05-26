@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "../../",
     "paths": {
-      "@oblique/design-system": ["./projects/design-system/src/public-api"]
+      "@dariopog-foitt/design-system": ["./projects/design-system/src/public-api"]
     }
   },
   "files": ["src/main.ts", "src/main.server.ts", "server.ts"]

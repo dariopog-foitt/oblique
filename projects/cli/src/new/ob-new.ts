@@ -102,10 +102,10 @@ function runAddOblique(options: ObNewOptions<string | boolean>, projectName: str
 	}
 	const filteredOptions = filterValidOptions(commandOptions);
 
-	execute({name: 'ngAdd', dependency: '@oblique/toolchain', execSyncOptions: {cwd: workingDirectory}});
+	execute({name: 'ngAdd', dependency: '@dariopog-foitt/toolchain', execSyncOptions: {cwd: workingDirectory}});
 	execute({
 		name: 'ngAdd',
-		dependency: '@oblique/oblique',
+		dependency: '@dariopog-foitt/oblique',
 		options: filteredOptions,
 		execSyncOptions: {cwd: workingDirectory},
 	});

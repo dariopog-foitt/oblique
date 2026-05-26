@@ -46,7 +46,7 @@ export class UpdateV9toV10 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove ObUseObliqueIcons');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'ObUseObliqueIcons', '@oblique/oblique');
+				removeImport(tree, filePath, 'ObUseObliqueIcons', '@dariopog-foitt/oblique');
 				replaceInFile(
 					tree,
 					filePath,
@@ -62,7 +62,7 @@ export class UpdateV9toV10 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove the OB_PROJECT_INFO injection token');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'OB_PROJECT_INFO', '@oblique/oblique');
+				removeImport(tree, filePath, 'OB_PROJECT_INFO', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /import\s+packageInfo\s+from\s+['"]\.\.\/package\.json['"]\s*;\s?/s, '');
 				replaceInFile(
 					tree,
@@ -82,7 +82,9 @@ export class UpdateV9toV10 implements ObIMigrations {
 			return setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'styles'], (config: any) =>
 				(config || []).filter(
 					(style: string) =>
-						!/node_modules\/@oblique\/oblique\/styles\/s?css\/oblique-(?:utilities|bootstrap)\.s?css?/.test(style)
+						!/node_modules\/@dariopog-foitt\/oblique\/styles\/s?css\/oblique-(?:utilities|bootstrap)\.s?css?/.test(
+							style
+						)
 				)
 			);
 		});
@@ -93,7 +95,8 @@ export class UpdateV9toV10 implements ObIMigrations {
 			infoMigration(context, 'Remove oblique-material from angular.json');
 			return setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'styles'], (config: any) =>
 				(config || []).filter(
-					(style: string) => !/node_modules\/@oblique\/oblique\/styles\/s?css\/oblique-material\.s?css/.test(style)
+					(style: string) =>
+						!/node_modules\/@dariopog-foitt\/oblique\/styles\/s?css\/oblique-material\.s?css/.test(style)
 				)
 			);
 		});

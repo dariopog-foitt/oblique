@@ -5,7 +5,7 @@ import {AsyncPipe, NgTemplateOutlet} from '@angular/common';
 import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import {ObButtonModule} from '@oblique/oblique';
+import {ObButtonModule} from '@dariopog-foitt/oblique';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatTooltip} from '@angular/material/tooltip';
 

@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
-import {ObErrorMessagesModule, ObSchemaValidationModule} from '@oblique/oblique';
+import {ObErrorMessagesModule, ObSchemaValidationModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-schema-validation-example-template-driven-form-preview',

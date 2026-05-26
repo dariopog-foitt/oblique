@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, type Routes} from '@angular/router';
 
-import {ObUnknownRouteModule} from '@oblique/oblique';
+import {ObUnknownRouteModule} from '@dariopog-foitt/oblique';
 import {HomePageComponent} from './home/home.page';
 
 const appRoutes: Routes = [

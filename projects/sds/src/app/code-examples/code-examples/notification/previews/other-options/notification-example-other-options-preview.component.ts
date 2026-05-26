@@ -6,7 +6,7 @@ import {
 	ObENotificationType,
 	ObNotificationModule,
 	ObNotificationService,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {Component, inject} from '@angular/core';
 import {TranslateModule} from '@ngx-translate/core';
 

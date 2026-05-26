@@ -37,7 +37,7 @@ describe('ngAdd', () => {
 	});
 
 	test('creates a logger', () => {
-		expect(logger.group).toHaveBeenCalledWith('Add @oblique/toolchain');
+		expect(logger.group).toHaveBeenCalledWith('Add @dariopog-foitt/toolchain');
 	});
 
 	test('closes the logger group', () => {

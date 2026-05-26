@@ -67,7 +67,7 @@ import {
 	ObSpinnerModule,
 	ObUnknownRouteModule,
 	ObUnsavedChangesModule,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {NestedFormChildTDSampleComponent} from './nested-form/nested-form-child-td-sample.component';
 import {NestedFormGrandChildTDSampleComponent} from './nested-form/nested-form-grandchild-td-sample.component';
 import {MultiTranslateLoaderSampleComponent} from './multi-translate-loader/multi-translate-loader-sample.component';

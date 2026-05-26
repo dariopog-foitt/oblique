@@ -1,7 +1,7 @@
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {AutocompleteCodeExamplesComponent} from './autocomplete-code-examples.component';
 import {TranslateService} from '@ngx-translate/core';
-import {ObMockTranslateService} from '@oblique/oblique';
+import {ObMockTranslateService} from '@dariopog-foitt/oblique';
 
 describe('AutocompleteCodeExamplesComponent', () => {
 	let component: AutocompleteCodeExamplesComponent;

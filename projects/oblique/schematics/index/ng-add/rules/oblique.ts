@@ -81,7 +81,7 @@ function addFeatureDetection(): Rule {
 		return includeAngularConfigInList(
 			tree,
 			['architect', 'build', 'options', 'scripts'],
-			'node_modules/@oblique/oblique/ob-features.js'
+			'node_modules/@dariopog-foitt/oblique/ob-features.js'
 		);
 	});
 }
@@ -118,7 +118,7 @@ function addObliqueAssets(): Rule {
 		return setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'assets'], (config: any) => [
 			{
 				glob: '**/*',
-				input: 'node_modules/@oblique/oblique/assets',
+				input: 'node_modules/@dariopog-foitt/oblique/assets',
 				output: 'assets',
 			},
 			...config,
@@ -132,7 +132,7 @@ function addFontFiles(): Rule {
 		setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'assets'], (config: any) => {
 			config.splice(1, 0, {
 				glob: '*/**',
-				input: 'node_modules/@oblique/oblique/styles/fonts',
+				input: 'node_modules/@dariopog-foitt/oblique/styles/fonts',
 				output: 'assets/fonts',
 			});
 			return config;

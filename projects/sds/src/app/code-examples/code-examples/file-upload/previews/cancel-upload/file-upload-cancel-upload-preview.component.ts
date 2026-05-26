@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObAlertComponent, ObFileUploadModule} from '@oblique/oblique';
+import {ObAlertComponent, ObFileUploadModule} from '@dariopog-foitt/oblique';
 import {mockUploadURL} from '../../file-upload-simulate-interceptor';
 
 @Component({

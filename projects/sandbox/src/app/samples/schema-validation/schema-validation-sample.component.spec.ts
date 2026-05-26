@@ -5,7 +5,7 @@ import {HttpClientTestingModule} from '@angular/common/http/testing';
 import {RouterModule} from '@angular/router';
 import {MatMomentDateModule} from '@angular/material-moment-adapter';
 import {TranslateService} from '@ngx-translate/core';
-import {ObDatepickerModule, ObMockTranslatePipe, ObMockTranslateService} from '@oblique/oblique';
+import {ObDatepickerModule, ObMockTranslatePipe, ObMockTranslateService} from '@dariopog-foitt/oblique';
 import {SchemaValidationSampleComponent} from './schema-validation-sample.component';
 
 describe(SchemaValidationSampleComponent.name, () => {

@@ -14,7 +14,7 @@ See [README.md](../../README.md) for information about the other packages and pr
 From the monorepo root, start the development server:
 
 ```shell
-npm start -w @oblique/sandbox
+npm start -w @dariopog-foitt/sandbox
 ```
 
 The application will be available at `http://localhost:3001`
@@ -28,7 +28,7 @@ This library is only available inside the federal network and is necessary for l
 From the monorepo root, start the development server with pams:
 
 ```shell
-npm start-pams -w @oblique/sandbox
+npm start-pams -w @dariopog-foitt/sandbox
 ```
 
 The application will be available at `http://localhost:3000`

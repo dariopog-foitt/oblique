@@ -1,4 +1,9 @@
-import {ObButtonModule, ObErrorMessagesDirective, ObFocusInvalidDirective, ObMatErrorDirective} from '@oblique/oblique';
+import {
+	ObButtonModule,
+	ObErrorMessagesDirective,
+	ObFocusInvalidDirective,
+	ObMatErrorDirective,
+} from '@dariopog-foitt/oblique';
 import {MatSelectModule} from '@angular/material/select';
 import {Component, type OnInit, inject} from '@angular/core';
 import {FormBuilder, type FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';

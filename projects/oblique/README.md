@@ -6,7 +6,7 @@ Oblique provides a standardized corporate design look and feel, along with a col
 components. Through its fully customizable master layout, Oblique manages the overall application structure,
 allowing focus on the content.
 
-@oblique/oblique is the original library that includes all tools, components, and utilities needed for frontend
+@dariopog-foitt/oblique is the original library that includes all tools, components, and utilities needed for frontend
 development. Over time, it became too large and difficult to maintain, so its features are now being redistributed
 into smaller, purpose-driven libraries.
 
@@ -25,20 +25,20 @@ It includes information about the entire ecosystem, usage instructions, code sam
 
 ### New Projects
 
-The recommended way to install `@oblique/oblique` is through Oblique's CLI.
+The recommended way to install `@dariopog-foitt/oblique` is through Oblique's CLI.
 
 ```shell
-npx @oblique/cli@latest new <projectName>
+npx @dariopog-foitt/cli@latest new <projectName>
 ```
 
 This command creates a new project with all necessary dependencies and configurations.
 
 ### Existing Projects
 
-Add @oblique/oblique to a project with:
+Add @dariopog-foitt/oblique to a project with:
 
 ```shell
-ng add @oblique/oblique@latest
+ng add @dariopog-foitt/oblique@latest
 ```
 
 It may be necessary to replace `latest` with the major version compatible with the current Angular version. Refer

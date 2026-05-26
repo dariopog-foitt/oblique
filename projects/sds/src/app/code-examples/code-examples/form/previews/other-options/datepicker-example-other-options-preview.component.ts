@@ -4,7 +4,7 @@ import type {MatDatepickerInputEvent} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {DatePipe} from '@angular/common';
-import {ObDatepickerModule} from '@oblique/oblique';
+import {ObDatepickerModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-datepicker-example-other-options-preview',

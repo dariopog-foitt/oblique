@@ -11,7 +11,7 @@ import {
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
-import {ObInputClearModule} from '@oblique/oblique';
+import {ObInputClearModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-form-example-input-clear-preview',

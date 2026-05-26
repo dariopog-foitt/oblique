@@ -6,7 +6,7 @@ import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {By} from '@angular/platform-browser';
 import {SchemaValidationExampleReactiveFormPreviewComponent} from './previews/reactive-form/schema-validation-example-reactive-form-preview.component';
 import {SchemaValidationExampleTemplateDrivenFormPreviewComponent} from './previews/template-driven-form/schema-validation-example-template-driven-form-preview.component';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe(SchemaValidationCodeExamplesComponent.name, () => {
 	let component: SchemaValidationCodeExamplesComponent;

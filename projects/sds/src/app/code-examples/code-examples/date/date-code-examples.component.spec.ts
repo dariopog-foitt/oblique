@@ -5,7 +5,7 @@ import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {DateCodeExamplesComponent} from './date-code-examples.component';
 import {By} from '@angular/platform-browser';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe(DateCodeExamplesComponent.name, () => {
 	let component: DateCodeExamplesComponent;

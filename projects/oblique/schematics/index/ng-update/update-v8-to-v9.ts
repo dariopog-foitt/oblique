@@ -205,7 +205,7 @@ export class UpdateV8toV9 implements ObIMigrations {
 			tree.overwrite(
 				mainTsPath,
 				[
-					"import {OB_PROJECT_INFO} from '@oblique/oblique';",
+					"import {OB_PROJECT_INFO} from '@dariopog-foitt/oblique';",
 					`import packageInfo from '${getPackageJsonPath(tree, project)}';`,
 					content
 						.replace(
@@ -245,7 +245,7 @@ export class UpdateV8toV9 implements ObIMigrations {
 			getRootModulePathPerProject(tree, mainTsPathPerProject)
 				.map(item => item.path)
 				.forEach(rootModulePath => {
-					addModuleImportToModule(tree, rootModulePath, 'ObIconModule', '@oblique/oblique');
+					addModuleImportToModule(tree, rootModulePath, 'ObIconModule', '@dariopog-foitt/oblique');
 					const content = readFile(tree, rootModulePath);
 					tree.overwrite(
 						rootModulePath,

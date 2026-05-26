@@ -1,7 +1,7 @@
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {HomePageComponent} from './home.page';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {TranslateModule} from '@ngx-translate/core';
 
 describe(HomePageComponent.name, () => {

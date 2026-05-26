@@ -1,5 +1,5 @@
 import {MatButtonModule} from '@angular/material/button';
-import {ObButtonModule, ObPopoverModule} from '@oblique/oblique';
+import {ObButtonModule, ObPopoverModule} from '@dariopog-foitt/oblique';
 import {Component} from '@angular/core';
 
 @Component({

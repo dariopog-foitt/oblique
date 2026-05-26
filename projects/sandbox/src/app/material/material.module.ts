@@ -35,7 +35,7 @@ import {
 	ObInputClearModule,
 	ObSelectableModule,
 	ObSpinnerModule,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {ButtonComponent} from './button/button.component';
 import {CardComponent} from './card/card.component';
 import {ChipsComponent} from './chips/chips.component';

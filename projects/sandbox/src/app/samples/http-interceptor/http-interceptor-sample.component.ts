@@ -6,7 +6,7 @@ import {
 	type ObIHttpApiRequest,
 	ObNotificationService,
 	ObSpinnerService,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {delay, mergeMap, take, tap} from 'rxjs/operators';
 import {type Observable, from} from 'rxjs';
 import {HttpMockErrorInterceptor} from './http-mock-error.interceptor';

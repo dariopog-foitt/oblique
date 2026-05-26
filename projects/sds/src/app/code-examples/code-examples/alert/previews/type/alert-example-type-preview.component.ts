@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObAlertModule} from '@oblique/oblique';
+import {ObAlertModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-alert-example-type-preview',

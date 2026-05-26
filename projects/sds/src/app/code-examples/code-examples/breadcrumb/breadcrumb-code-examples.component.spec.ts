@@ -4,7 +4,7 @@ import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {By} from '@angular/platform-browser';
 import {BreadcrumbCodeExamplesComponent} from './breadcrumb-code-examples.component';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {BreadcrumbExampleDefaultPreviewComponent} from './previews/default/breadcrumb-example-default-preview.component';
 
 describe(BreadcrumbCodeExamplesComponent.name, () => {

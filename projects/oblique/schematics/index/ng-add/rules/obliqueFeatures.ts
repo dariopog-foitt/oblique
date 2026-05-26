@@ -49,7 +49,12 @@ function addObliqueProviders(): Rule {
 	return createSafeRule((tree: Tree, context: SchematicContext) => {
 		infoMigration(context, 'Oblique feature: Adding Oblique configuration');
 		const sourceFile = createSrcFile(tree, appModulePath);
-		const changes = addProviderToModule(sourceFile, appModulePath, 'provideObliqueConfiguration()', '@oblique/oblique')
+		const changes = addProviderToModule(
+			sourceFile,
+			appModulePath,
+			'provideObliqueConfiguration()',
+			'@dariopog-foitt/oblique'
+		)
 			.filter((change: Change) => change instanceof InsertChange)
 			.map((change: InsertChange) =>
 				adaptInsertChange(tree, change, 'provideObliqueConfiguration()', 'provideObliqueConfiguration')

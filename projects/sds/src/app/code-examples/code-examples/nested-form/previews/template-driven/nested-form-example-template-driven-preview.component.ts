@@ -9,7 +9,7 @@ import {
 	ObNestedFormModule,
 	ObNotificationModule,
 	ObNotificationService,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {NestedFormExampleTemplateDrivenPreviewChildComponent} from './child/nested-form-example-template-driven-preview-child.component';
 import {MatButtonModule} from '@angular/material/button';
 

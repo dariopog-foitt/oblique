@@ -4,7 +4,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
-import {ObDatepickerModule} from '@oblique/oblique';
+import {ObDatepickerModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-form-example-sizes-preview',

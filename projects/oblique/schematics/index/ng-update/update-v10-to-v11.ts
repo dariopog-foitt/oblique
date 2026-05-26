@@ -67,9 +67,9 @@ export class UpdateV10toV11 implements ObIMigrations {
 			const apply = (filePath: string): void => {
 				const content = readFile(tree, filePath);
 				if (content.includes('ObPopUpService')) {
-					addImport(tree, filePath, 'WINDOW', '@oblique/oblique');
-					removeImport(tree, filePath, 'ObPopUpService', '@oblique/oblique');
-					removeImport(tree, filePath, 'ObMockPopUpService', '@oblique/oblique');
+					addImport(tree, filePath, 'WINDOW', '@dariopog-foitt/oblique');
+					removeImport(tree, filePath, 'ObPopUpService', '@dariopog-foitt/oblique');
+					removeImport(tree, filePath, 'ObMockPopUpService', '@dariopog-foitt/oblique');
 					replaceInFile(
 						tree,
 						filePath,
@@ -102,8 +102,8 @@ export class UpdateV10toV11 implements ObIMigrations {
 			const apply = (filePath: string): void => {
 				const varName = /(?<varname>\w+)\s*:\s*ObPopUpService/.exec(readFile(tree, filePath))?.groups?.varname;
 				if (varName) {
-					addInjectionInClass(tree, filePath, 'WINDOW', '@oblique/oblique');
-					removeInjectionInClass(tree, filePath, 'ObPopUpService', '@oblique/oblique');
+					addInjectionInClass(tree, filePath, 'WINDOW', '@dariopog-foitt/oblique');
+					removeInjectionInClass(tree, filePath, 'ObPopUpService', '@dariopog-foitt/oblique');
 					replaceInFile(tree, filePath, new RegExp(varName, 'g'), 'window');
 					replaceInFile(tree, filePath, 'wINDOW', 'window');
 				}
@@ -136,9 +136,9 @@ export class UpdateV10toV11 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove search box feature');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'ObSearchBoxModule', '@oblique/oblique');
-				removeImport(tree, filePath, 'ObSearchBoxComponent', '@oblique/oblique');
-				removeImport(tree, filePath, 'ObISearchWidgetItem', '@oblique/oblique');
+				removeImport(tree, filePath, 'ObSearchBoxModule', '@dariopog-foitt/oblique');
+				removeImport(tree, filePath, 'ObSearchBoxComponent', '@dariopog-foitt/oblique');
+				removeImport(tree, filePath, 'ObISearchWidgetItem', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /ObSearchBoxModule\s*,?\s*/, '');
 			};
 			return applyInTree(tree, apply, filePatterns.ts);
@@ -149,7 +149,7 @@ export class UpdateV10toV11 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove fake focus');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'ObNavTreeFakeFocusDirective', '@oblique/oblique');
+				removeImport(tree, filePath, 'ObNavTreeFakeFocusDirective', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /\[?obNavTreeFakeFocus]?\s*=\s*["'].*?["']\s*/g, '');
 			};
 			return applyInTree(tree, apply, filePatterns.html);
@@ -162,9 +162,9 @@ export class UpdateV10toV11 implements ObIMigrations {
 			return setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'styles'], (config: string[]) => {
 				const styles = ['oblique-core', 'oblique-alert', 'oblique-icons'];
 				styles.forEach(style => {
-					const index = config.indexOf(`node_modules/@oblique/oblique/styles/scss/${style}.scss`);
+					const index = config.indexOf(`node_modules/@dariopog-foitt/oblique/styles/scss/${style}.scss`);
 					if (index !== -1) {
-						config[index] = `node_modules/@oblique/oblique/styles/css/${style}.css`;
+						config[index] = `node_modules/@dariopog-foitt/oblique/styles/css/${style}.css`;
 					}
 				});
 				return config;

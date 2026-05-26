@@ -3,7 +3,7 @@ import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {SelectableCodeExamplesComponent} from './selectable-code-examples.component';
 import {By} from '@angular/platform-browser';
-import {ObSelectableGroupDirective, WINDOW} from '@oblique/oblique';
+import {ObSelectableGroupDirective, WINDOW} from '@dariopog-foitt/oblique';
 
 describe(SelectableCodeExamplesComponent.name, () => {
 	let component: SelectableCodeExamplesComponent;

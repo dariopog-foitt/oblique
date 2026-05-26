@@ -9,8 +9,8 @@ module.exports = {
 		color: 'cyan',
 	},
 	moduleNameMapper: {
-		'@oblique/oblique': '<rootDir>/projects/oblique/src/public_api.ts',
-		'@oblique/version': '<rootDir>/projects/oblique/src/lib/version.ts',
+		'@dariopog-foitt/oblique': '<rootDir>/projects/oblique/src/public_api.ts',
+		'@dariopog-foitt/version': '<rootDir>/projects/oblique/src/lib/version.ts',
 	},
 	coverageDirectory: '<rootDir>/coverage/service-navigation',
 	coveragePathIgnorePatterns: ['<rootDir>/projects/oblique'],

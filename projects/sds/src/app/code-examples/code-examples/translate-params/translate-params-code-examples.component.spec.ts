@@ -1,6 +1,6 @@
 import {CommonModule} from '@angular/common';
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {TranslateParamsCodeExamplesComponent} from './translate-params-code-examples.component';

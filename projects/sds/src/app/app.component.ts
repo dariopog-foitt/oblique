@@ -1,6 +1,6 @@
 import {Component, inject} from '@angular/core';
 import {AsyncPipe} from '@angular/common';
-import {ObSpinnerModule} from '@oblique/oblique';
+import {ObSpinnerModule} from '@dariopog-foitt/oblique';
 import {RouterOutlet} from '@angular/router';
 import {TranslateService} from '@ngx-translate/core';
 import {type Observable, filter, map, tap} from 'rxjs';

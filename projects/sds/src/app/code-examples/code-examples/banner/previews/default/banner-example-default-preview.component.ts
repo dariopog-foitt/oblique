@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
-import {ObButtonModule, ObExternalLinkModule} from '@oblique/oblique';
+import {ObButtonModule, ObExternalLinkModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-banner-example-default-preview',

@@ -296,7 +296,7 @@ export class UpdateV7toV8 implements ObIMigrations {
 			infoMigration(context, 'Removing compat styles');
 			return setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'styles'], (config: any) =>
 				(config || []).filter(
-					(style: string) => !/node_modules\/@oblique\/oblique\/styles\/css\/oblique-compat\.s?css/.test(style)
+					(style: string) => !/node_modules\/@dariopog-foitt\/oblique\/styles\/css\/oblique-compat\.s?css/.test(style)
 				)
 			);
 		});
@@ -330,7 +330,7 @@ export class UpdateV7toV8 implements ObIMigrations {
 							.replace(/ObThemeService,?\s*/, '') // remove service import
 							.replace(new RegExp(`(?:this\\.)?${service}\\.set(?:Theme|Font)\\(.*\\);\\s*`, 'g'), '') // remove call to setTheme / setFont
 							.replace(/,(\s*(?:\)|}))/g, '$1') // remove eventual trailing commas im imports
-							.replace(/import\s*{\s*}\s*from\s*['"]@oblique\/oblique['"]\s*;\s*/g, '') // remove empty imports
+							.replace(/import\s*{\s*}\s*from\s*['"]@dariopog-foitt\/oblique['"]\s*;\s*/g, '') // remove empty imports
 							.replace(/constructor\s*\(\s*\)\s*{\s*}/g, '') // remove empty imports
 					);
 				}
@@ -343,16 +343,16 @@ export class UpdateV7toV8 implements ObIMigrations {
 		switch (themeOrFont) {
 			case 'oblique-material':
 			case 'THEMES.MATERIAL':
-				return 'node_modules/@oblique/oblique/styles/css/oblique-material.css';
+				return 'node_modules/@dariopog-foitt/oblique/styles/css/oblique-material.css';
 			case 'oblique-bootstrap':
 			case 'THEMES.BOOTSTRAP':
-				return 'node_modules/@oblique/oblique/styles/css/oblique-bootstrap.css';
+				return 'node_modules/@dariopog-foitt/oblique/styles/css/oblique-bootstrap.css';
 			case 'frutiger':
 			case 'FONTS.FRUTIGER':
-				return 'node_modules/@oblique/oblique/styles/css/frutiger.css';
+				return 'node_modules/@dariopog-foitt/oblique/styles/css/frutiger.css';
 			case 'roboto':
 			case 'FONTS.ROBOTO':
-				return 'node_modules/@oblique/oblique/styles/css/roboto.css';
+				return 'node_modules/@dariopog-foitt/oblique/styles/css/roboto.css';
 			default:
 				return undefined;
 		}
@@ -467,8 +467,8 @@ export class UpdateV7toV8 implements ObIMigrations {
 				fileContent = fileContent
 					.replace(/(constructor\s*\()(\s*)/, '$1$2private readonly masterLayout: ObMasterLayoutService,$2')
 					.replace(
-						/import\s*{(.*)}\s*from\s*['"]@oblique\/oblique['"]/,
-						`import {$1, ObMasterLayoutService} from '@oblique/oblique'`
+						/import\s*{(.*)}\s*from\s*['"]@dariopog-foitt\/oblique['"]/,
+						`import {$1, ObMasterLayoutService} from '@dariopog-foitt/oblique'`
 					);
 				masterLayoutService = 'masterLayout';
 			}

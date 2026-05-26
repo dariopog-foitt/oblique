@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {TranslateModule} from '@ngx-translate/core';
-import {DemoComponent} from '@oblique/design-system';
+import {DemoComponent} from '@dariopog-foitt/design-system';
 
 @Component({
 	selector: 'ssr-test',

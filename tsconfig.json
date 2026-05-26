@@ -13,9 +13,9 @@
     "typeRoots": ["node_modules/@types"],
     "useUnknownInCatchVariables": true,
     "paths": {
-      "@oblique/oblique": ["projects/oblique/src/public_api"],
-      "@oblique/*": ["projects/oblique/src/lib/*"],
-      "@oblique/design-system": ["projects/design-system/src/public-api"]
+      "@dariopog-foitt/oblique": ["projects/oblique/src/public_api"],
+      "@dariopog-foitt/*": ["projects/oblique/src/lib/*"],
+      "@dariopog-foitt/design-system": ["projects/design-system/src/public-api"]
     },
     "resolveJsonModule": true,
     "useDefineForClassFields": false

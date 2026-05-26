@@ -26,7 +26,7 @@ import {composeAccordions} from './utils/accordion-composer';
 import {IdPipe} from '../shared/id/id.pipe';
 import {AsyncPipe, NgOptimizedImage} from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
-import {ObButtonDirective, WINDOW} from '@oblique/oblique';
+import {ObButtonDirective, WINDOW} from '@dariopog-foitt/oblique';
 import {AccordionLinksComponent} from './accordion-links/accordion-links.component';
 import {VersionComponent} from './version/version.component';
 import {ImageComponent} from './image/image.component';

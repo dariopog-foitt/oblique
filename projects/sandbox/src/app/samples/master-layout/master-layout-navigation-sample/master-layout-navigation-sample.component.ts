@@ -7,7 +7,7 @@ import {MatFormField, MatInput, MatLabel} from '@angular/material/input';
 import {MatIcon} from '@angular/material/icon';
 import {MatSlideToggle} from '@angular/material/slide-toggle';
 import {MatTooltip} from '@angular/material/tooltip';
-import {ObButtonDirective, ObEScrollMode, type ObLoginState, ObMasterLayoutService} from '@oblique/oblique';
+import {ObButtonDirective, ObEScrollMode, type ObLoginState, ObMasterLayoutService} from '@dariopog-foitt/oblique';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {DynamicNavigationService} from '../dynamic-navigation.service';
 import {type Observable, share} from 'rxjs';

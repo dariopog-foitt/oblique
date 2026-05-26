@@ -2,7 +2,7 @@ import {type AfterViewInit, Component, viewChild} from '@angular/core';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import {ObButtonModule} from '@oblique/oblique';
+import {ObButtonModule} from '@dariopog-foitt/oblique';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSort, MatSortModule} from '@angular/material/sort';
 

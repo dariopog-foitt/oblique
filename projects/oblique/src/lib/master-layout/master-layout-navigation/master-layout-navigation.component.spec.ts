@@ -13,7 +13,7 @@ import {mockLinksWithChildren} from './master-layout-navigation.component.spec-m
 import {basicMockLinks} from './master-layout-navigation.component.spec-basic-mocks-links';
 import {ObNavigationLink} from './navigation-link.model';
 import {ObMasterLayoutNavigationGoToChildrenComponent} from './go-to-children/master-layout-navigation-go-to-children.component';
-import {ObINavigationLink} from '@oblique/oblique';
+import {ObINavigationLink} from '@dariopog-foitt/oblique';
 import {ObLocalizePipe} from '../../router/ob-localize.pipe';
 import {ObEScrollMode} from '../master-layout.model';
 import {ObMasterLayoutNavigationService} from './master-layout-navigation.service';

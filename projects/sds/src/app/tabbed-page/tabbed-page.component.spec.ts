@@ -1,7 +1,7 @@
 import {HttpClientTestingModule} from '@angular/common/http/testing';
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {ActivatedRoute, RouterModule, convertToParamMap} from '@angular/router';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {TabbedPageComponent} from './tabbed-page.component';
 import {firstValueFrom, of} from 'rxjs';
 import {CmsDataService} from '../cms/cms-data.service';

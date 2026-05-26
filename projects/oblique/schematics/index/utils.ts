@@ -4,7 +4,7 @@ import * as colors from 'ansi-colors';
 import {getTemplate} from './ng-add/ng-add-utils';
 
 export const packageJsonConfigPath = '/package.json';
-export const ObliquePackage = '@oblique/oblique';
+export const ObliquePackage = '@dariopog-foitt/oblique';
 export const filePatterns = {
 	ts: '*.ts',
 	test: '*.spec.ts',
@@ -70,8 +70,9 @@ export function createSafeRule(callback: (tree: Tree, context: SchematicContext)
 function getErrorInfo(thrownError: unknown): {message: string; file: string; line: string} {
 	if (thrownError instanceof Error) {
 		const {file, line} =
-			/@oblique[/\\]oblique[/\\]schematics[/\\].*[/\\](?<file>\w*\.js):(?<line>\d*)/.exec(thrownError.stack || '')
-				?.groups || {};
+			/@dariopog-foitt[/\\]oblique[/\\]schematics[/\\].*[/\\](?<file>\w*\.js):(?<line>\d*)/.exec(
+				thrownError.stack || ''
+			)?.groups || {};
 		return {
 			message: thrownError.message,
 			file,

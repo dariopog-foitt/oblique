@@ -1,6 +1,6 @@
 import {AsyncPipe} from '@angular/common';
 import {Component} from '@angular/core';
-import {ObSelectableModule} from '@oblique/oblique';
+import {ObSelectableModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-selectable-example-windows-preview',

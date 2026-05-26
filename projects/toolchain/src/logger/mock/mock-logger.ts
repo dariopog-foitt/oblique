@@ -51,7 +51,7 @@ function createMockLoggerGroup(): jest.Mocked<ObGroupLogger> {
  * group.end();
  *
  * // Test the logger with:
- * import {obMockLogger} from '@oblique/toolchain/logger/mock';
+ * import {obMockLogger} from '@dariopog-foitt/toolchain/logger/mock';
  * ...
  * const {logger, loggerGroups, clearGroups} = obMockLogger();
  * ...

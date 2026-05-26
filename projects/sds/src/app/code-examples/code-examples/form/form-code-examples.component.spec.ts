@@ -15,7 +15,7 @@ import {FormExampleHorizontalPreviewComponent} from './previews/horizontal/form-
 import {FormExampleInputClearPreviewComponent} from './previews/input-clear/form-example-input-clear-preview.component';
 import {FormExampleInputPrefixesAndSuffixesPreviewComponent} from './previews/input-prefixes-and-suffixes/form-example-input-prefixes-and-suffixes-preview.component';
 import {provideNativeDateAdapter} from '@angular/material/core';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe(FormCodeExamplesComponent.name, () => {
 	let component: FormCodeExamplesComponent;

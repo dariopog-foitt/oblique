@@ -4,7 +4,12 @@ import {FormBuilder, type FormControl, type FormGroup, ReactiveFormsModule, Vali
 import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-import {ObButtonModule, ObErrorMessagesModule, ObNotificationModule, ObNotificationService} from '@oblique/oblique';
+import {
+	ObButtonModule,
+	ObErrorMessagesModule,
+	ObNotificationModule,
+	ObNotificationService,
+} from '@dariopog-foitt/oblique';
 import {mergeMap, tap} from 'rxjs';
 import {NewsletterService} from './newsletter.service';
 import {DomSanitizer} from '@angular/platform-browser';

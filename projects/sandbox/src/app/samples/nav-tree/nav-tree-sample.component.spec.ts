@@ -8,7 +8,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {of} from 'rxjs';
 import {NavTreeSampleComponent} from './nav-tree-sample.component';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {TranslateModule} from '@ngx-translate/core';
 
 describe(NavTreeSampleComponent.name, () => {

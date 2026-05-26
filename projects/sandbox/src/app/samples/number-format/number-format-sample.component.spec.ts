@@ -1,7 +1,7 @@
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {NumberFormatSampleComponent} from './number-format-sample.component';
 import {TranslateModule} from '@ngx-translate/core';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@oblique/oblique",
+  "name": "@dariopog-foitt/oblique",
   "version": "15.3.0",
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"

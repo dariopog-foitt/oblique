@@ -1,7 +1,7 @@
 import {CommonModule} from '@angular/common';
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {By} from '@angular/platform-browser';
-import {ObButtonDirective, provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {ObButtonDirective, provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {UnsavedChangesCodeExamplesComponent} from './unsaved-changes-code-examples.component';

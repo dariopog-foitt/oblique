@@ -8,7 +8,7 @@ import {AccordionLinksComponent} from './accordion-links/accordion-links.compone
 import {ImageComponent} from './image/image.component';
 import {SideNavigationComponent} from './side-navigation.component';
 import {VersionComponent} from './version/version.component';
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 import {CmsDataService} from '../cms/cms-data.service';
 import {filter, firstValueFrom, of} from 'rxjs';
 import {VersionService} from '../shared/version/version.service';

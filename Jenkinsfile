@@ -15,10 +15,10 @@ nodejsPipelineTemplate {
 		],
 		master: [
 			'publish': [
-				'@oblique/oblique',
-				'@oblique/cli',
-				'@oblique/service-navigation-web-component',
-				'@oblique/toolchain'
+				'@dariopog-foitt/oblique',
+				'@dariopog-foitt/cli',
+				'@dariopog-foitt/service-navigation-web-component',
+				'@dariopog-foitt/toolchain'
 			]
 		]
 	]

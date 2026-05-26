@@ -9,7 +9,7 @@ import {
 	ObFileUploadComponent,
 	ObMockTranslatePipe,
 	provideObliqueTestingConfiguration,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {By} from '@angular/platform-browser';
 import {HttpClientTestingModule} from '@angular/common/http/testing';
 

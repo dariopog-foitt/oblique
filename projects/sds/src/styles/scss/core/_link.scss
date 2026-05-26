@@ -1,4 +1,4 @@
-@use "@oblique/oblique/src/styles/scss/core/variables";
+@use "@dariopog-foitt/oblique/src/styles/scss/core/variables";
 
 a[href^="mailto:"]::after {
 	margin-left: variables.$ob-spacing-xs;

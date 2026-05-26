@@ -1,7 +1,7 @@
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormBuilder, type FormGroup, FormsModule, ReactiveFormsModule} from '@angular/forms'; // UntypedFormBuilder, UntypedFormGroup,
-import {ObNumberFormatModule} from '@oblique/oblique';
+import {ObNumberFormatModule} from '@dariopog-foitt/oblique';
 import {Component, inject} from '@angular/core';
 import type {Observable} from 'rxjs';
 import {AsyncPipe} from '@angular/common';

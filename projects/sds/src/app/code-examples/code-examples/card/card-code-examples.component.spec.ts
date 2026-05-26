@@ -1,7 +1,7 @@
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {CardCodeExamplesComponent} from './card-code-examples.component';
 import {RouterModule} from '@angular/router';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe('CardCodeExamplesComponent', () => {
 	let component: CardCodeExamplesComponent;

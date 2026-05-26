@@ -1,7 +1,7 @@
 import {type AfterViewInit, Component, type OnDestroy, inject} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {MatDialogModule} from '@angular/material/dialog';
-import {ObButtonModule, ObSpinnerModule, ObSpinnerService} from '@oblique/oblique';
+import {ObButtonModule, ObSpinnerModule, ObSpinnerService} from '@dariopog-foitt/oblique';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';

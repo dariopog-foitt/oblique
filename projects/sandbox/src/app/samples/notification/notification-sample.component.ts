@@ -1,5 +1,5 @@
 import {Component, inject} from '@angular/core';
-import {ObENotificationPlacement, ObENotificationType, ObNotificationService} from '@oblique/oblique';
+import {ObENotificationPlacement, ObENotificationType, ObNotificationService} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-notification-sample',

@@ -1,5 +1,5 @@
 import {Component, viewChild} from '@angular/core';
-import {ObSelectableGroupDirective} from '@oblique/oblique';
+import {ObSelectableGroupDirective} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-card',

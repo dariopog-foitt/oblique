@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 import {timer} from 'rxjs';
-import {obPauseWhenPageHidden} from '@oblique/oblique';
+import {obPauseWhenPageHidden} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-rxjs-operators',

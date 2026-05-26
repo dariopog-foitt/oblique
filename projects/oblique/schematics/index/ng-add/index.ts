@@ -41,7 +41,7 @@ export function addOblique(options: ObIOptionsSchema): Rule {
 
 function preconditions(): Rule {
 	return (tree: Tree, context: SchematicContext) => {
-		infoText(context, 'Executing migrations of package "@oblique/oblique"');
+		infoText(context, 'Executing migrations of package "@dariopog-foitt/oblique"');
 
 		checkPrecondition(tree, '@angular/core');
 		checkPrecondition(tree, '@angular/router');
@@ -66,7 +66,7 @@ function checkRequiredDependencies(tree: Tree, context: SchematicContext): void 
 			type: NodeDependencyType.Default,
 		},
 		{
-			name: '@oblique/toolchain',
+			name: '@dariopog-foitt/toolchain',
 			type: NodeDependencyType.Dev,
 		},
 	]

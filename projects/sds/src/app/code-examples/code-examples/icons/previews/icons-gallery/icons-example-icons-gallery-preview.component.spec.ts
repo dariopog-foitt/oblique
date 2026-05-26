@@ -4,7 +4,7 @@ import {OverlayContainer} from '@angular/cdk/overlay';
 import {By} from '@angular/platform-browser';
 import {MatSelect} from '@angular/material/select';
 import {MatIcon} from '@angular/material/icon';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {IdPipe} from '../../../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../../../code-example/code-example.component';
 import {IconsExampleIconsGalleryPreviewComponent} from './icons-example-icons-gallery-preview.component';

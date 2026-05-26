@@ -35,7 +35,7 @@ From the monorepo root
 
 - Build the library:
   ```shell
-  npm run build -w @oblique/toolchain
+  npm run build -w @dariopog-foitt/toolchain
   ```
 - Create a tarball:
   ```shell

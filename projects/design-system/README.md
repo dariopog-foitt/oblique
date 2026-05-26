@@ -22,7 +22,7 @@ While the system follows the Federal Web Guidelines published by the Federal Cha
 primarily created for websites, whereas the Design System is tailored to the specific needs of web applications.
 
 This library is intended for projects that do not use Angular. For Angular projects, consider using
-`@oblique/ng-design-system` instead.
+`@dariopog-foitt/ng-design-system` instead.
 
 See [README.md](../../README.md) for information about the other packages and projects in the Oblique ecosystem.
 
@@ -36,10 +36,10 @@ It includes information about the entire ecosystem, usage instructions, code sam
 
 ### New Projects
 
-The recommended way to install `@oblique/design-system` is through Oblique's CLI.
+The recommended way to install `@dariopog-foitt/design-system` is through Oblique's CLI.
 
 ```shell
-npx @oblique/cli@latest new <projectName>
+npx @dariopog-foitt/cli@latest new <projectName>
 ```
 
 This command creates a new project with all necessary dependencies and configurations.
@@ -49,7 +49,7 @@ This command creates a new project with all necessary dependencies and configura
 Add the Design System to a project with:
 
 ```shell
-npm install @oblique/design-system --save
+npm install @dariopog-foitt/design-system --save
 ```
 
 Embed `oblique-core.css` into the project to complete the setup.

@@ -3,7 +3,7 @@ import {type AfterViewInit, ChangeDetectorRef, Component, inject} from '@angular
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
-import {ObErrorMessagesModule} from '@oblique/oblique';
+import {ObErrorMessagesModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-form-example-input-prefixes-and-suffixes-preview',

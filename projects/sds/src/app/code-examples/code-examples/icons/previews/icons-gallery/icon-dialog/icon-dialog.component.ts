@@ -6,7 +6,7 @@ import {MAT_DIALOG_DATA, MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {TranslateModule, TranslateService} from '@ngx-translate/core';
-import {ObButtonModule, ObNotificationModule, ObNotificationService, ObPopoverModule} from '@oblique/oblique';
+import {ObButtonModule, ObNotificationModule, ObNotificationService, ObPopoverModule} from '@dariopog-foitt/oblique';
 import type {IconMetadata} from '../icons.model';
 
 @Component({

@@ -3,7 +3,7 @@ import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {RouterModule} from '@angular/router';
 import {TextPageComponent} from './text-page.component';
 import {IdPipe} from '../shared/id/id.pipe';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {CmsRouteRedirector} from '../shared/cms-route-redirector/cms-route-redirector';
 
 describe(TextPageComponent.name, () => {

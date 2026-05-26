@@ -6,7 +6,7 @@ import {IconsCodeExamplesComponent} from './icons-code-examples.component';
 import {By} from '@angular/platform-browser';
 import {IconsExampleFontSizePreviewComponent} from './previews/font-size/icons-example-font-size-preview.component';
 import {IconsExampleDefaultPreviewComponent} from './previews/default/icons-example-default-preview.component';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe(IconsCodeExamplesComponent.name, () => {
 	let component: IconsCodeExamplesComponent;

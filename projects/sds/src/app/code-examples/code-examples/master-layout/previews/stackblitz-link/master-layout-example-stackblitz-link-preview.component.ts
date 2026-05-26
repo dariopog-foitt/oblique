@@ -1,6 +1,6 @@
 import {MatButtonModule} from '@angular/material/button';
 import {Component} from '@angular/core';
-import {ObButtonModule, ObExternalLinkModule} from '@oblique/oblique';
+import {ObButtonModule, ObExternalLinkModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-master-layout-example-stackblitz-link-preview',

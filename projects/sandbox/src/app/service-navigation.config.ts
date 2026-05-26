@@ -1,4 +1,4 @@
-import type {ObIServiceNavigationContact} from '@oblique/oblique';
+import type {ObIServiceNavigationContact} from '@dariopog-foitt/oblique';
 
 export const profileLinks = [
 	{

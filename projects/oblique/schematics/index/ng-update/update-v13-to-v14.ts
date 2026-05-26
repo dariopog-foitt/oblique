@@ -374,7 +374,7 @@ export class UpdateV13toV14 implements ObIMigrations {
 			const toApply = (filePath: string): void => {
 				const content = readFile(tree, filePath);
 				if (content.includes('ObPaginatorModule')) {
-					removeImport(tree, filePath, 'ObPaginatorModule', '@oblique/oblique');
+					removeImport(tree, filePath, 'ObPaginatorModule', '@dariopog-foitt/oblique');
 					addImport(tree, filePath, 'MatPaginatorModule', '@angular/material/paginator');
 					replaceInFile(tree, filePath, /ObPaginatorModule/g, 'MatPaginatorModule');
 				}
@@ -445,7 +445,7 @@ export class UpdateV13toV14 implements ObIMigrations {
 			const toApply = (filePath: string): void => {
 				const content = readFile(tree, filePath);
 				if (content.includes('ObHttpApiInterceptorModule')) {
-					removeImport(tree, filePath, 'ObHttpApiInterceptorModule', '@oblique/oblique');
+					removeImport(tree, filePath, 'ObHttpApiInterceptorModule', '@dariopog-foitt/oblique');
 					replaceInFile(tree, filePath, /ObHttpApiInterceptorModule,?/gu, '');
 				}
 			};

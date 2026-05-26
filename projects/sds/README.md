@@ -9,7 +9,7 @@ See [README.md](../../README.md) for information about the other packages and pr
 From the monorepo root, start the development server:
 
 ```shell
-npm start -w @oblique/sds
+npm start -w @dariopog-foitt/sds
 ```
 
 The application will be available at `http://localhost:4200`

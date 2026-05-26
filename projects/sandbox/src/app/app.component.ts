@@ -9,7 +9,7 @@ import {
 	ObMasterLayoutHeaderService,
 	WINDOW,
 	appVersion,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {type Observable, Subject} from 'rxjs';
 import {delay, filter, map, startWith, takeUntil} from 'rxjs/operators';
 import {DynamicNavigationService} from './samples/master-layout/dynamic-navigation.service';

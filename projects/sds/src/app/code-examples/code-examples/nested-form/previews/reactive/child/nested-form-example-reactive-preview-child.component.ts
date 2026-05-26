@@ -2,7 +2,7 @@ import {Component, inject} from '@angular/core';
 import {ReactiveFormsModule, UntypedFormBuilder, type UntypedFormGroup, Validators} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-import {ObErrorMessagesModule, ObNestedFormModule} from '@oblique/oblique';
+import {ObErrorMessagesModule, ObNestedFormModule} from '@dariopog-foitt/oblique';
 import {NestedFormExampleReactivePreviewGrandchildComponent} from '../grandchild/nested-form-example-reactive-preview-grandchild.component';
 
 @Component({

@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {GlobalEventsCodeExamplesComponent} from './global-events-code-examples.component';
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 import {By} from '@angular/platform-browser';
 
 describe(GlobalEventsCodeExamplesComponent.name, () => {

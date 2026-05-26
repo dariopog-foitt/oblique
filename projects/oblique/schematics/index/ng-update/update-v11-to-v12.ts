@@ -29,7 +29,7 @@ export class UpdateV11toV12 implements ObIMigrations {
 			const apply = (filePath: string): void => {
 				const content = readFile(tree, filePath);
 				if (content.includes('ObLanguageService')) {
-					removeInjectionInClass(tree, filePath, 'ObLanguageService', '@oblique/oblique');
+					removeInjectionInClass(tree, filePath, 'ObLanguageService', '@dariopog-foitt/oblique');
 					removeServiceMethodCall(tree, filePath, 'setLocaleOnAdapter');
 				}
 			};

@@ -14,11 +14,11 @@ It includes information about the entire ecosystem, usage instructions, code sam
 
 ## Getting Started
 
-The recommended way to use `@oblique/cli` is via `npx`, allowing explicit control over the version to use. This
+The recommended way to use `@dariopog-foitt/cli` is via `npx`, allowing explicit control over the version to use. This
 means no global installation is needed.
 
 ```shell
-npx @oblique/cli@latest
+npx @dariopog-foitt/cli@latest
 ```
 
 This ensures the latest version of the CLI is used.
@@ -26,13 +26,13 @@ This ensures the latest version of the CLI is used.
 If a specific version is needed, replace `latest` with the desired version, for instance:
 
 ```shell
-npx @oblique/cli@13
+npx @dariopog-foitt/cli@13
 ```
 
 or
 
 ```shell
-npx @oblique/cli@13.1.1
+npx @dariopog-foitt/cli@13.1.1
 ```
 
 ## Content
@@ -44,10 +44,10 @@ This package includes a few commands that call other tools as needed.
 If the project is behind by more than one major version, run the command step by step through each major version until
 the latest is reached
 
-| Command                                     | Parameter                         | Description                                                |
-| ------------------------------------------- | --------------------------------- | ---------------------------------------------------------- |
-| `npx @oblique/cli@latest new <projectName>` | The name of the project to create | Creates a new Oblique project                              |
-| `npx @oblique/cli@latest update`            | N/A                               | Updates the Oblique project in which the command is called |
+| Command                                            | Parameter                         | Description                                                |
+| -------------------------------------------------- | --------------------------------- | ---------------------------------------------------------- |
+| `npx @dariopog-foitt/cli@latest new <projectName>` | The name of the project to create | Creates a new Oblique project                              |
+| `npx @dariopog-foitt/cli@latest update`            | N/A                               | Updates the Oblique project in which the command is called |
 
 The `update` command performs the following actions:
 
@@ -60,7 +60,7 @@ The `update` command performs the following actions:
 
 | Option            | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
-| `-v`, `--version` | Prints the current version of `@oblique/cli`                    |
+| `-v`, `--version` | Prints the current version of `@dariopog-foitt/cli`             |
 | `-h`, `--help`    | Prints the documentation for the command it has been applied to |
 
 ## Tips & Best Practices

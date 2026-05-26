@@ -7,10 +7,10 @@ export const version = '15.3.0';
 /* End of generated content */
 
 export const currentVersions = {
-	'@oblique/oblique': version,
+	'@dariopog-foitt/oblique': version,
 	'@angular/cli': '^21',
 	'@angular/material': '21',
-	'@oblique/toolchain': version,
+	'@dariopog-foitt/toolchain': version,
 	'@angular/core': '21',
 	'@angular/cdk': '21',
 	'@angular-devkit/build-angular': '21',
@@ -27,7 +27,11 @@ export const nonUpdatableDependencies = ['@angular/flex-layout'];
 
 export const optionDescriptions = {
 	ob: {
-		version: {flags: '-v, --version', description: 'Shows the current version of @oblique/cli', command: 'ob -v'},
+		version: {
+			flags: '-v, --version',
+			description: 'Shows the current version of @dariopog-foitt/cli',
+			command: 'ob -v',
+		},
 		help: {flags: '-h, --help', description: getHelpText('ob'), command: 'ob -h'},
 	},
 	new: {
@@ -37,7 +41,7 @@ export const optionDescriptions = {
 	update: {obUpdateCommand: {command: 'ob update', description: 'Update an Oblique project'}},
 };
 
-export const ngAddOblique = {command: 'ng add @oblique/oblique', description: 'add Oblique to the project'};
+export const ngAddOblique = {command: 'ng add @dariopog-foitt/oblique', description: 'add Oblique to the project'};
 
 export const obExamples = [
 	{command: optionDescriptions.ob.version.command, description: optionDescriptions.ob.version.description},

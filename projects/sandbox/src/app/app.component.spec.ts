@@ -3,7 +3,7 @@ import {RouterModule} from '@angular/router';
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {AppComponent} from './app.component';
 import {provideNativeDateAdapter} from '@angular/material/core';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {TranslateModule} from '@ngx-translate/core';
 
 describe('AppComponent', () => {

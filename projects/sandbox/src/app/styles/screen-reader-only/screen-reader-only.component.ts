@@ -1,6 +1,6 @@
 import {Component, type OnInit, inject} from '@angular/core';
 import {UntypedFormControl} from '@angular/forms';
-import {ObMasterLayoutService} from '@oblique/oblique';
+import {ObMasterLayoutService} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-screen-reader-only',

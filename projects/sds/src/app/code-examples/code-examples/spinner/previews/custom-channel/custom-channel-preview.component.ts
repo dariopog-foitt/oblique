@@ -1,7 +1,7 @@
 import {Component, type OnDestroy, inject} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {type MatSlideToggleChange, MatSlideToggleModule} from '@angular/material/slide-toggle';
-import {ObButtonModule, ObSpinnerModule, ObSpinnerService} from '@oblique/oblique';
+import {ObButtonModule, ObSpinnerModule, ObSpinnerService} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-custom-channel-preview',

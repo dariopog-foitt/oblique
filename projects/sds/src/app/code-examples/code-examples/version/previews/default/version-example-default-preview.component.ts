@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {appVersion} from '@oblique/oblique';
+import {appVersion} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-version-example-default-preview',

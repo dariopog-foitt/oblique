@@ -1,6 +1,6 @@
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {SpinnerCodeExamplesComponent} from './spinner-code-examples.component';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe('SpinnerCodeExamplesComponent', () => {
 	let component: SpinnerCodeExamplesComponent;

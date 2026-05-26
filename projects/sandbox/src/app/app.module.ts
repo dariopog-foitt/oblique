@@ -36,7 +36,7 @@ import {
 	ObSpinnerModule,
 	ObUnsavedChangesModule,
 	provideObliqueConfiguration,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 // App:
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
@@ -49,7 +49,7 @@ import localeFR from '@angular/common/locales/fr-CH';
 import localeDE from '@angular/common/locales/de-CH';
 import {HttpInterceptorSampleComponent} from './samples/http-interceptor/http-interceptor-sample.component';
 import {infoContact, infoLinks, profileLinks} from './service-navigation.config';
-import {OB_MAT_ERROR_PREFIX} from '@oblique/utilities';
+import {OB_MAT_ERROR_PREFIX} from '@dariopog-foitt/utilities';
 
 registerLocaleData(localeFR);
 registerLocaleData(localeDE);

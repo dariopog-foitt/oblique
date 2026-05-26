@@ -1,6 +1,6 @@
 import {AsyncPipe} from '@angular/common';
 import {type AfterViewInit, Component, ElementRef, type OnDestroy, type Signal, inject, viewChild} from '@angular/core';
-import {ObGlobalEventsService, obOutsideFilter} from '@oblique/oblique';
+import {ObGlobalEventsService, obOutsideFilter} from '@dariopog-foitt/oblique';
 import {BehaviorSubject, type Observable, Subject, map, takeUntil, withLatestFrom} from 'rxjs';
 
 @Component({

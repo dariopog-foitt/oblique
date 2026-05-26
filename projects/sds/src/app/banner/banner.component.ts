@@ -1,6 +1,6 @@
 import {Component, ViewEncapsulation, input} from '@angular/core';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import {ObExternalLinkModule} from '@oblique/oblique';
+import {ObExternalLinkModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-banner',

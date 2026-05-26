@@ -1,5 +1,5 @@
 import {Component, inject} from '@angular/core';
-import {ObSpinnerService} from '@oblique/oblique';
+import {ObSpinnerService} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-spinner-sample',

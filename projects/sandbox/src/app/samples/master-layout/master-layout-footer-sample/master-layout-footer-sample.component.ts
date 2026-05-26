@@ -1,5 +1,5 @@
 import {Component, inject} from '@angular/core';
-import {ObMasterLayoutService} from '@oblique/oblique';
+import {ObMasterLayoutService} from '@dariopog-foitt/oblique';
 import {MatCard, MatCardContent, MatCardTitle} from '@angular/material/card';
 import {MatSlideToggle} from '@angular/material/slide-toggle';
 import {FormsModule} from '@angular/forms';

@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import type {ObIAlertType} from '@oblique/oblique';
+import type {ObIAlertType} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-alert-sample',

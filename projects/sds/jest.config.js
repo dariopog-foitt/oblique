@@ -15,7 +15,7 @@ module.exports = {
 		'^shared(.*)$': '<rootDir>/src/app/shared$1',
 		'^side-navigation(.*)$': '<rootDir>/src/app/side-navigation$1',
 		'^test-helpers(.*)$': '<rootDir>/src/test-helpers$1',
-		'@oblique/oblique': '<rootDir>/projects/oblique/src/public_api.ts',
+		'@dariopog-foitt/oblique': '<rootDir>/projects/oblique/src/public_api.ts',
 	},
 	testPathIgnorePatterns: [
 		'<rootDir>/projects/sds/schematics/src/add-code-example/templates',

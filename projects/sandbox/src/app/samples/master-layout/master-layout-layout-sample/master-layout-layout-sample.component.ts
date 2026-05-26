@@ -4,7 +4,7 @@ import {MatSlideToggle} from '@angular/material/slide-toggle';
 import {FormsModule} from '@angular/forms';
 import {MatFormField, MatInput, MatLabel} from '@angular/material/input';
 import {MatOption, MatSelect} from '@angular/material/select';
-import {type ObICollapseBreakpoints, ObMasterLayoutService} from '@oblique/oblique';
+import {type ObICollapseBreakpoints, ObMasterLayoutService} from '@dariopog-foitt/oblique';
 import {DynamicNavigationService} from '../dynamic-navigation.service';
 
 @Component({

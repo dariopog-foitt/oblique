@@ -1,5 +1,5 @@
 {
-  "name": "@oblique/design-system",
+  "name": "@dariopog-foitt/design-system",
   "version": "15.3.0",
   "scripts": {
     "lint": "ts-node scripts/lint.ts",

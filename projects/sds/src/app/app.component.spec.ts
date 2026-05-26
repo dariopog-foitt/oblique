@@ -7,7 +7,7 @@ import {CmsDataService} from './cms/cms-data.service';
 import {HttpClientTestingModule} from '@angular/common/http/testing';
 import {TranslateService} from '@ngx-translate/core';
 import {delay, of} from 'rxjs';
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 
 describe('AppComponent', () => {
 	let component: AppComponent;

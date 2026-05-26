@@ -2,7 +2,7 @@ import {TestBed} from '@angular/core/testing';
 import {NavigationEnd, Router, provideRouter} from '@angular/router';
 import {Component} from '@angular/core';
 import {RouterTestingHarness} from '@angular/router/testing';
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 import {type Observable, Subject, firstValueFrom, of} from 'rxjs';
 import {filter} from 'rxjs/operators';
 import type {CMSPages} from '../../cms/models/cms-page.model';

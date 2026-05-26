@@ -1,4 +1,4 @@
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 import {NumberFormatExampleOtherOptionsPreviewComponent} from './previews/other-options/number-format-example-other-options-preview.component';
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {CommonModule} from '@angular/common';

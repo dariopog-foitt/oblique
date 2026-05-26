@@ -1,7 +1,7 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {CUSTOM_ELEMENTS_SCHEMA, Component, DebugElement} from '@angular/core';
 import {By} from '@angular/platform-browser';
-import {ObIAlertType} from '@oblique/oblique';
+import {ObIAlertType} from '@dariopog-foitt/oblique';
 import {provideObliqueTestingConfiguration} from '../utilities';
 import {OBLIQUE_HAS_ROLE_ALERT, ObAlertComponent} from './alert.component';
 

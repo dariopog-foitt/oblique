@@ -1,6 +1,6 @@
 import {Component, type OnInit, inject} from '@angular/core';
 import {FormBuilder, type FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
-import {ObSelectableModule} from '@oblique/oblique';
+import {ObSelectableModule} from '@dariopog-foitt/oblique';
 import {JsonPipe} from '@angular/common';
 
 @Component({

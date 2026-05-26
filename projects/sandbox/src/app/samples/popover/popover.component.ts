@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObEToggleType} from '@oblique/oblique';
+import {ObEToggleType} from '@dariopog-foitt/oblique';
 import type {Placement} from '@popperjs/core';
 
 @Component({

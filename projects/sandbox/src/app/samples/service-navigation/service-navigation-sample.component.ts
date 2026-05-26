@@ -5,7 +5,7 @@ import {
 	type ObLoginState,
 	ObServiceNavigationComponent,
 	WINDOW,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import type {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
 import {environment} from '../../../environments/environment';

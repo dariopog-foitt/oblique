@@ -9,11 +9,11 @@ See [README.md](../../README.md) for information about the other packages and pr
 
 ## Getting Started
 
-The Styles Builder is **always** invoked by the `@oblique/oblique` build script and should never be run manually.  
+The Styles Builder is **always** invoked by the `@dariopog-foitt/oblique` build script and should never be run manually.  
 From the monorepo root, build the Oblique library:
 
 ```shell
-npm run build -w @oblique/oblique
+npm run build -w @dariopog-foitt/oblique
 ```
 
 The Styles Builder itself only transpiles the following SCSS files into CSS

@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObTranslateParamsModule} from '@oblique/oblique';
+import {ObTranslateParamsModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-translate-params-example-default-preview',

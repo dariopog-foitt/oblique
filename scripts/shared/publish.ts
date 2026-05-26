@@ -22,7 +22,7 @@ export class Publish extends StaticScript {
 	}
 
 	private static deprecatePreReleaseVersions(packageName: string, version: string): void {
-		const fullPackageName = `@oblique/${packageName}`;
+		const fullPackageName = `@dariopog-foitt/${packageName}`;
 		const nextTag = Publish.getTagOnNext(fullPackageName);
 		if (nextTag.startsWith(version) && nextTag !== version) {
 			executeCommandWithLog(
@@ -34,7 +34,7 @@ export class Publish extends StaticScript {
 	}
 
 	private static deprecateMajorVersion(packageName: string): void {
-		const fullPackageName = `@oblique/${packageName}`;
+		const fullPackageName = `@dariopog-foitt/${packageName}`;
 		Object.entries(Publish.eolDates)
 			.map(([major, endOfLifeDate]) => ({major, endOfLifeDate}))
 			.filter(({endOfLifeDate}) => new Date() > new Date(endOfLifeDate))

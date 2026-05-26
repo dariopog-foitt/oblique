@@ -331,7 +331,7 @@
 - **master-layout:** For accessibility reasons, each page should have its own title. This feature is now activated per default for the accessibility page.
 - **paginator:** `ObPaginatorModule` has been removed in favor of `MatPaginatorModule` (Solved with Schematics)
 - **schema-validation:** `name` property of `ObSchemaRequiredDirective` has been removed without replacement
-- **schematics:** `.browserslistrc` is not added anymore. Use `@oblique/toolchain` to correctly configure Oblique
+- **schematics:** `.browserslistrc` is not added anymore. Use `@dariopog-foitt/toolchain` to correctly configure Oblique
 - **scrolling:** `scrollTarget` has been removed without replacement.
 - **scrolling:** `ObScrollingEvents` has been removed without replacement
 - **service-navigation:** `ObIServiceNavigationContact.tel` has been renamed to `ObIServiceNavigationContact.phone` (Solved with Schematics)
@@ -2733,7 +2733,7 @@
 
 ## Code Refactoring
 
-- **package:** rename library to `@oblique/oblique` ([10095d5](https://bitbucket.bit.admin.ch/projects/OUI/repos/oblique/commits/10095d5))
+- **package:** rename library to `@dariopog-foitt/oblique` ([10095d5](https://bitbucket.bit.admin.ch/projects/OUI/repos/oblique/commits/10095d5))
 - **theme:** rename `brand-danger` into `brand-error` ([61b473a](https://bitbucket.bit.admin.ch/projects/OUI/repos/oblique/commits/61b473a))
 - **datepicker:** remove `DatepickerModule` form `ObliqueModule` ([a8383e9](https://bitbucket.bit.admin.ch/projects/OUI/repos/oblique/commits/a8383e9))
 - **toggle:** rename `activate` function into `toggle` ([3510496](https://bitbucket.bit.admin.ch/projects/OUI/repos/oblique/commits/3510496))
@@ -2748,9 +2748,9 @@
 ## BREAKING CHANGES
 
 - **toolchain:** `angular.json ` has to be patched, under `<projectName>.architect.build.options.assets`
-  - change `"input": "node_modules/oblique-reactive/styles/images"` into `"node_modules/@oblique/oblique/styles"`
+  - change `"input": "node_modules/oblique-reactive/styles/images"` into `"node_modules/@dariopog-foitt/oblique/styles"`
   - change `"output": "/assets/styles/images"` into `"output": "/assets/styles"`
-- **package:** Oblique has been renamed `@oblique/oblique` to be consistent with angular naming. It means that all imports have to be updated and that the package is available under its new name
+- **package:** Oblique has been renamed `@dariopog-foitt/oblique` to be consistent with angular naming. It means that all imports have to be updated and that the package is available under its new name
 - **unsaved-changes:** all code related to Bootstrap's `tabset` has been moved into a new `UnsavedChangesTabsModule` module which has to be imported separately from `ObliqueModule`.
 - **unsaved-changes:** to Monitor changes on Bootstrap's `tabset`, `orUnsavedChangesTabs` directive has to be used instead of `orUnsavedChanges`
 - **datepicker:** `DatepickerModule` has to be imported separately from `ObliqueModule`

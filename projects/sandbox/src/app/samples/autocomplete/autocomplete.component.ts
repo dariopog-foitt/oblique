@@ -3,7 +3,7 @@ import type {
 	ObIAutocompleteInputOption,
 	ObIAutocompleteInputOptionGroup,
 	OptionLabelIconPosition,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({

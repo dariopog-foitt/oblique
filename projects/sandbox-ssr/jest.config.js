@@ -9,8 +9,8 @@ module.exports = {
 		color: 'cyan',
 	},
 	moduleNameMapper: {
-		'@oblique/oblique': '<rootDir>/projects/oblique/src/public_api.ts',
-		'@oblique/design-system': '<rootDir>/projects/design-system/src/public-api',
+		'@dariopog-foitt/oblique': '<rootDir>/projects/oblique/src/public_api.ts',
+		'@dariopog-foitt/design-system': '<rootDir>/projects/design-system/src/public-api',
 	},
 	coverageDirectory: '<rootDir>/coverage/sandbox-ssr',
 	coveragePathIgnorePatterns: ['<rootDir>/projects/oblique'],

@@ -1,6 +1,6 @@
 import {MatButtonModule} from '@angular/material/button';
 import {Component} from '@angular/core';
-import {ObBreadcrumbModule, ObButtonModule, ObExternalLinkModule} from '@oblique/oblique';
+import {ObBreadcrumbModule, ObButtonModule, ObExternalLinkModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-breadcrumb-example-default-preview',

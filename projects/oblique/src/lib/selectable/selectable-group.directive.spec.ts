@@ -7,7 +7,7 @@ import {ObSelectableGroupDirective} from './selectable-group.directive';
 import {ObMockSelectableDirective} from './_mocks/mock-selectable.directive';
 import {firstValueFrom} from 'rxjs';
 import {FormControl, NG_VALUE_ACCESSOR, ReactiveFormsModule} from '@angular/forms';
-import {ObSelectableDirective} from '@oblique/oblique';
+import {ObSelectableDirective} from '@dariopog-foitt/oblique';
 
 @Component({
 	standalone: false,

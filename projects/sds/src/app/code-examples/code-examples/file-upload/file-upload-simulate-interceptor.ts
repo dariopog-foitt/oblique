@@ -8,7 +8,7 @@ import {
 	type HttpRequest,
 	HttpResponse,
 } from '@angular/common/http';
-import type {ObIFileDescription} from '@oblique/oblique';
+import type {ObIFileDescription} from '@dariopog-foitt/oblique';
 import {map, takeWhile} from 'rxjs/operators';
 import {type Observable, concatWith, interval, of, tap} from 'rxjs';
 

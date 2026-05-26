@@ -2,7 +2,7 @@ import {Component, viewChild} from '@angular/core';
 import {FormsModule, NgForm} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-import {ObErrorMessagesModule} from '@oblique/oblique';
+import {ObErrorMessagesModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-nested-form-example-template-driven-preview-grandchild',

@@ -1,5 +1,5 @@
 import {type AfterViewInit, Component, DOCUMENT, ElementRef, inject, viewChild} from '@angular/core';
-import {obFocusWithOutline} from '@oblique/oblique';
+import {obFocusWithOutline} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-focus-sample',

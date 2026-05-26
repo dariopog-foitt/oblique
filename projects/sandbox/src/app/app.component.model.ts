@@ -1,4 +1,4 @@
-import type {ObEPamsEnvironment, ObTBanner} from '@oblique/oblique';
+import type {ObEPamsEnvironment, ObTBanner} from '@dariopog-foitt/oblique';
 
 export interface Environment {
 	production: boolean;

@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObCollapseModule} from '@oblique/oblique';
+import {ObCollapseModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-collapse-example-default-preview',

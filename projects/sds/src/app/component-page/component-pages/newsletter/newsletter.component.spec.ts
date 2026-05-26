@@ -2,7 +2,7 @@ import {HttpClientTestingModule} from '@angular/common/http/testing';
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {FormGroup, ReactiveFormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {NewsletterComponent} from './newsletter.component';
 
 describe(NewsletterComponent.name, () => {

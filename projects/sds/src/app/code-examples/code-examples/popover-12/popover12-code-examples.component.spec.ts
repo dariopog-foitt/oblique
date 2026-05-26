@@ -2,7 +2,7 @@ import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {CommonModule} from '@angular/common';
 import {IdPipe} from '../../../shared/id/id.pipe';
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 import {By} from '@angular/platform-browser';
 import {Popover12CodeExamplesComponent} from './popover12-code-examples.component';
 import {Popover12ExampleEventsPreviewComponent} from './previews/events/popover12-example-events-preview.component';

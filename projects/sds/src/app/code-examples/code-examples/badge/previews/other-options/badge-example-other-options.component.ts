@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {MatBadgeModule} from '@angular/material/badge';
-import {ObButtonModule} from '@oblique/oblique';
+import {ObButtonModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-badge-example-other-options',

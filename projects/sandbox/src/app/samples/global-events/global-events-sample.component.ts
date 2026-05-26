@@ -1,5 +1,5 @@
 import {type AfterViewInit, Component, ElementRef, inject, viewChild} from '@angular/core';
-import {ObGlobalEventsService, obOutsideFilter} from '@oblique/oblique';
+import {ObGlobalEventsService, obOutsideFilter} from '@dariopog-foitt/oblique';
 import {map, scan} from 'rxjs/operators';
 import type {Observable} from 'rxjs';
 

@@ -24,8 +24,8 @@ export const angularAppFilesNames = {
 };
 export const appModulePath = `src/app/${angularAppFilesNames.appModule}`;
 export const routingModulePath = `src/app/${angularAppFilesNames.appRoutingModule}`;
-export const pathToTemplates = './node_modules/@oblique/oblique/schematics/index/ng-add/templates';
-export const obliqueCssPath = 'node_modules/@oblique/oblique/styles/css/oblique-core.css';
+export const pathToTemplates = './node_modules/@dariopog-foitt/oblique/schematics/index/ng-add/templates';
+export const obliqueCssPath = 'node_modules/@dariopog-foitt/oblique/styles/css/oblique-core.css';
 
 type versionFunc = (version: number) => string;
 

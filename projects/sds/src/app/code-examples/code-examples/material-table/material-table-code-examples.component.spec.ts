@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {MaterialTableCodeExamplesComponent} from './material-table-code-examples.component';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {By} from '@angular/platform-browser';
 import {MaterialTableExampleDefaultPreviewComponent} from './previews/default/material-table-example-default-preview.component';
 import {MaterialTableExampleEditablePreviewComponent} from './previews/editable/material-table-example-editable-preview.component';

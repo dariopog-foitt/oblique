@@ -1,7 +1,7 @@
 import {TestBed} from '@angular/core/testing';
 import {DynamicNavigationService} from './dynamic-navigation.service';
 import {firstValueFrom} from 'rxjs';
-import type {ObINavigationLink} from '@oblique/oblique';
+import type {ObINavigationLink} from '@dariopog-foitt/oblique';
 
 describe(DynamicNavigationService.name, () => {
 	let service: DynamicNavigationService;

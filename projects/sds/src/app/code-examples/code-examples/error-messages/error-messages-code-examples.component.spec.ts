@@ -8,7 +8,7 @@ import {ErrorMessagesExampleReactiveFormPreviewComponent} from './previews/react
 import {ErrorMessagesExampleTemplateDrivenFormPreviewComponent} from './previews/template-driven-form/error-messages-example-template-driven-form-preview.component';
 import {ErrorMessagesExampleCustomErrorMessagePreviewComponent} from './previews/custom-error-message/error-messages-example-custom-error-message-preview.component';
 import {TranslateService} from '@ngx-translate/core';
-import {ObMockTranslateService} from '@oblique/oblique';
+import {ObMockTranslateService} from '@dariopog-foitt/oblique';
 
 describe(ErrorMessagesCodeExamplesComponent.name, () => {
 	let component: ErrorMessagesCodeExamplesComponent;

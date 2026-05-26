@@ -4,7 +4,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTimepickerModule} from '@angular/material/timepicker';
 import {FormsModule, ReactiveFormsModule, UntypedFormBuilder, type UntypedFormGroup} from '@angular/forms';
-import {ObDatepickerModule, ObErrorMessagesModule} from '@oblique/oblique';
+import {ObDatepickerModule, ObErrorMessagesModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-datepicker',

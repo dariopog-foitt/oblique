@@ -1,7 +1,7 @@
 import {RouterModule} from '@angular/router';
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {By} from '@angular/platform-browser';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {NavTreeExampleDataFromServicePreviewComponent} from './previews/data-from-service/nav-tree-example-data-from-service-preview.component';
 import {NavTreeExampleFilterPreviewComponent} from './previews/filter/nav-tree-example-filter-preview.component';

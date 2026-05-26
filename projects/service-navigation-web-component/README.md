@@ -18,7 +18,7 @@ The official Oblique Service Navigation Web Component documentation is located h
 From the monorepo root, start the development server:
 
 ```shell
-npm start -w @oblique/service-navigation-web-component
+npm start -w @dariopog-foitt/service-navigation-web-component
 ```
 
 The application will be available at `http://localhost:3003`
@@ -31,13 +31,13 @@ This library is only available inside the federal network and is necessary for l
 
 This package includes:
 
-- A Web Component that wraps the Service Navigation component from `@oblique/oblique`
+- A Web Component that wraps the Service Navigation component from `@dariopog-foitt/oblique`
 
 ## Tips & Best Practices
 
 - Use the Service Navigation Web Component as a regular NPM dependency that is installed locally
 - Install the Service Navigation Web Component locally, do not use it directly from the web
-- If the application is build with Angular, consider using the standard Service Navigation component from `@oblique/oblique` instead
+- If the application is build with Angular, consider using the standard Service Navigation component from `@dariopog-foitt/oblique` instead
 
 ## Contributing
 

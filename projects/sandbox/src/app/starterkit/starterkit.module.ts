@@ -6,7 +6,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTableModule} from '@angular/material/table';
 import {MatTooltip} from '@angular/material/tooltip';
 import {RouterModule, type Routes} from '@angular/router';
-import {ObButtonModule, ObExternalLinkModule, ObNavTreeModule} from '@oblique/oblique';
+import {ObButtonModule, ObExternalLinkModule, ObNavTreeModule} from '@dariopog-foitt/oblique';
 import {NavPageComponent} from './nav-page/nav-page.component';
 import {TablePageComponent} from './table-page/table-page.component';
 import {TitlePageComponent} from './title-page/title-page.component';

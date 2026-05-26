@@ -6,7 +6,7 @@ import {
 	ObErrorMessagesDirective,
 	ObInputClearModule,
 	ObMatErrorDirective,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {MatInputModule} from '@angular/material/input';
 import {FormBuilder, ReactiveFormsModule, Validators} from '@angular/forms';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';

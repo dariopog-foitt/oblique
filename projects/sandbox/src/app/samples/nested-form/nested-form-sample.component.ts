@@ -1,6 +1,6 @@
 import {Component, inject, viewChild} from '@angular/core';
 import {FormGroupDirective, NgForm, UntypedFormBuilder, Validators} from '@angular/forms';
-import {ObNotificationService} from '@oblique/oblique';
+import {ObNotificationService} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-nested-form-sample',

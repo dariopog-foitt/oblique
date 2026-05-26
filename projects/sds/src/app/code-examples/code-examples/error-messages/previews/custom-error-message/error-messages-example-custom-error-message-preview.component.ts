@@ -9,7 +9,7 @@ import {
 } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-import {ObErrorMessagesModule} from '@oblique/oblique';
+import {ObErrorMessagesModule} from '@dariopog-foitt/oblique';
 @Component({
 	selector: 'app-error-messages-example-custom-error-message-preview',
 	imports: [MatFormFieldModule, MatInputModule, ObErrorMessagesModule, ReactiveFormsModule],

@@ -6,7 +6,7 @@ import {
 	ObNestedFormModule,
 	ObNotificationModule,
 	ObNotificationService,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {JsonPipe} from '@angular/common';
 import {NestedFormExampleReactivePreviewChildComponent} from './child/nested-form-example-reactive-preview-child.component';

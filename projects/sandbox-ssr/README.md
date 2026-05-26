@@ -14,7 +14,7 @@ See [README.md](../../README.md) for information about the other packages and pr
 From the monorepo root, start the development server as a regular Angular app:
 
 ```shell
-npm start -w @oblique/sandbox-ssr
+npm start -w @dariopog-foitt/sandbox-ssr
 ```
 
 The application will be available at `http://localhost:3002`
@@ -24,7 +24,7 @@ The application will be available at `http://localhost:3002`
 From the monorepo root, start the development server with server-side rendering:
 
 ```shell
-npm start-ssr -w @oblique/sandbox-ssr
+npm start-ssr -w @dariopog-foitt/sandbox-ssr
 ```
 
 The application will be available at `http://localhost:3004`

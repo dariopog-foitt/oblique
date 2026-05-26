@@ -1,6 +1,6 @@
 import {type AfterViewInit, Component, type OnDestroy, inject} from '@angular/core';
 import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
-import {ObSpinnerService} from '@oblique/oblique';
+import {ObSpinnerService} from '@dariopog-foitt/oblique';
 import type {ObIDialogData} from '../dialog.model';
 
 @Component({

@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import {ObButtonModule} from '@oblique/oblique';
+import {ObButtonModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-button-example-colors',

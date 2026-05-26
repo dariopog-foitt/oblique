@@ -1,5 +1,5 @@
 import {Component, type OnDestroy, inject} from '@angular/core';
-import {ObButtonModule, ObSpinnerModule, ObSpinnerService} from '@oblique/oblique';
+import {ObButtonModule, ObSpinnerModule, ObSpinnerService} from '@dariopog-foitt/oblique';
 import {MatButtonModule} from '@angular/material/button';
 
 @Component({

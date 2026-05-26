@@ -1,4 +1,4 @@
-import {ObButtonModule} from '@oblique/oblique';
+import {ObButtonModule} from '@dariopog-foitt/oblique';
 import {MatButtonModule} from '@angular/material/button';
 import {Component} from '@angular/core';
 

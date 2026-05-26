@@ -15,7 +15,7 @@
 
 ## Bug Fixes
 
-- **toolchain:** `ng-add` adds `@oblique/toolchain` as a `devDependency` ([8cdc4c5f](https://github.com/oblique-bit/oblique/commit/8cdc4c5f3bd608a16e52563fdcb1ae79e9eccd1f))
+- **toolchain:** `ng-add` adds `@dariopog-foitt/toolchain` as a `devDependency` ([8cdc4c5f](https://github.com/oblique-bit/oblique/commit/8cdc4c5f3bd608a16e52563fdcb1ae79e9eccd1f))
 
 # [15.1.0](https://github.com/oblique-bit/oblique/compare/15.0.3...15.1.0) (2026-03-05)
 
@@ -49,7 +49,7 @@
 ## Features
 
 - **ng-add:** add a `.browserslistrc` file to the project ([f7c5379e](https://github.com/oblique-bit/oblique/commit/f7c5379e5e68e795c01dfd2c138323d5f0f19994))
-- **ng-add:** create `ng-add` Schematics to add `@oblique/toolchain` to a project ([9a5382a6](https://github.com/oblique-bit/oblique/commit/9a5382a6a7b9d2c15f99802d5bbf598081317c8f))
+- **ng-add:** create `ng-add` Schematics to add `@dariopog-foitt/toolchain` to a project ([9a5382a6](https://github.com/oblique-bit/oblique/commit/9a5382a6a7b9d2c15f99802d5bbf598081317c8f))
 
 # [13.3.0](https://github.com/oblique-bit/oblique/compare/13.2.3...13.3.0) (2025-06-12)
 

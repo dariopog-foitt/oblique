@@ -1,7 +1,7 @@
 import {Component, type OnInit, inject} from '@angular/core';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
-import {ObButtonModule, WINDOW} from '@oblique/oblique';
+import {ObButtonModule, WINDOW} from '@dariopog-foitt/oblique';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
 import {MatTooltip} from '@angular/material/tooltip';

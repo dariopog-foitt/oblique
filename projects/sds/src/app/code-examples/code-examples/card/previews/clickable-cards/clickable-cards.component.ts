@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {RouterModule} from '@angular/router';
-import {ObButtonModule, ObSelectableModule} from '@oblique/oblique';
+import {ObButtonModule, ObSelectableModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-clickable-cards',

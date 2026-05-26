@@ -6,7 +6,7 @@ import {
 	type ObIServiceNavigationContact,
 	ObServiceNavigationComponent,
 	provideObliqueTestingConfiguration,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {appVersion} from './version';
 import {HttpClient} from '@angular/common/http';
 import {TranslationsService} from './translations.service';

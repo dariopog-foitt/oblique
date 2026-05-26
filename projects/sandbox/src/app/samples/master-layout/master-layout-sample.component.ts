@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObEScrollMode} from '@oblique/oblique';
+import {ObEScrollMode} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-master-layout-sample',

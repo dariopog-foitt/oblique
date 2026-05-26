@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObFileUploadModule} from '@oblique/oblique';
+import {ObFileUploadModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-file-upload-basic-options-preview',

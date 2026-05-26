@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ObEIcon} from '@oblique/oblique';
+import {ObEIcon} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-icon-sample',

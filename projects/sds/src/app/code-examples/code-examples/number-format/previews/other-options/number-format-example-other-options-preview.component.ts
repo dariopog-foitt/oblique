@@ -1,7 +1,7 @@
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule} from '@angular/forms';
-import {ObNumberFormatModule} from '@oblique/oblique';
+import {ObNumberFormatModule} from '@dariopog-foitt/oblique';
 import {Component} from '@angular/core';
 
 @Component({

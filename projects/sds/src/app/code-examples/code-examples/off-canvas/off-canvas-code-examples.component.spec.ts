@@ -4,7 +4,7 @@ import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {OffCanvasCodeExamplesComponent} from './off-canvas-code-examples.component';
 import {By} from '@angular/platform-browser';
-import {ObButtonDirective, provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {ObButtonDirective, provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe(OffCanvasCodeExamplesComponent.name, () => {
 	let component: OffCanvasCodeExamplesComponent;

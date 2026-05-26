@@ -1,6 +1,6 @@
 import {Injectable, signal} from '@angular/core';
 import {type Observable, Subject} from 'rxjs';
-import type {ObICollapseBreakpoints, ObINavigationLink} from '@oblique/oblique';
+import type {ObICollapseBreakpoints, ObINavigationLink} from '@dariopog-foitt/oblique';
 
 @Injectable({
 	providedIn: 'root',

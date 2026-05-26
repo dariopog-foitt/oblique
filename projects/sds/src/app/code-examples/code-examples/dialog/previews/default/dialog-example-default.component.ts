@@ -1,4 +1,4 @@
-import {ObButtonModule} from '@oblique/oblique';
+import {ObButtonModule} from '@dariopog-foitt/oblique';
 import {Component, inject} from '@angular/core';
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
 import {ExampleDialogComponent} from './example-dialog/example-dialog.component';

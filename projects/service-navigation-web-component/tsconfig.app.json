@@ -10,7 +10,7 @@
     "esModuleInterop": true,
     "baseUrl": "../../",
     "paths": {
-      "@oblique/oblique": ["./projects/oblique/src/public_api"]
+      "@dariopog-foitt/oblique": ["./projects/oblique/src/public_api"]
     }
   },
   "files": ["src/main.ts", "src/app/version.ts"],

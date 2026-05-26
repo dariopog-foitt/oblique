@@ -35,7 +35,10 @@ export class CodeExamples {
 	private fixPath(fileType: string, fileContent: string): string {
 		switch (fileType) {
 			case 'scss':
-				return fileContent.replace(/@oblique\/oblique\/src\/styles\/scss\/core/gu, '@oblique/oblique/styles/scss/core');
+				return fileContent.replace(
+					/@dariopog-foitt\/oblique\/src\/styles\/scss\/core/gu,
+					'@dariopog-foitt/oblique/styles/scss/core'
+				);
 			case 'ts':
 				return fileContent.replace(/(?:\.\.\/)+/gu, './');
 			default:

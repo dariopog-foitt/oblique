@@ -3,7 +3,7 @@ import {TranslateService} from '@ngx-translate/core';
 import {TranslationsService} from './translations.service';
 import {HttpClient} from '@angular/common/http';
 import {of} from 'rxjs';
-import {provideObliqueTranslations} from '@oblique/oblique';
+import {provideObliqueTranslations} from '@dariopog-foitt/oblique';
 import type {ObITranslateObject} from './service-navigation-web-component.model';
 
 describe(TranslationsService.name, () => {

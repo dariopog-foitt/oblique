@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {CollapseCodeExamplesComponent} from './collapse-code-examples.component';
-import {ObCollapseComponent, ObGlobalEventsService, WINDOW} from '@oblique/oblique';
+import {ObCollapseComponent, ObGlobalEventsService, WINDOW} from '@dariopog-foitt/oblique';
 import {By} from '@angular/platform-browser';
 
 describe(CollapseCodeExamplesComponent.name, () => {

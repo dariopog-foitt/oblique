@@ -1,5 +1,5 @@
 {
-  "name": "@oblique/cli",
+  "name": "@dariopog-foitt/cli",
   "version": "15.3.0",
   "description": "Command Line Interface to manage Oblique projects",
   "keywords": [
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "ts-node src/index.ts",
-    "link": "npm uninstall @oblique/cli -g && npm run build && cd ../../dist/cli && npm link",
+    "link": "npm uninstall @dariopog-foitt/cli -g && npm run build && cd ../../dist/cli && npm link",
     "lint": "ts-node scripts/lint.ts",
     "format": "npm run lint -- --fix",
     "test": "jest",

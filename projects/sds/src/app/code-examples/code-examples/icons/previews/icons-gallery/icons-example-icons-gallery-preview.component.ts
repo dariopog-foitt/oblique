@@ -9,7 +9,7 @@ import {
 	ObNotificationService,
 	ObPopoverModule,
 	WINDOW,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {AsyncPipe, KeyValuePipe} from '@angular/common';

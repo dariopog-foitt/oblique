@@ -1,4 +1,4 @@
-import {ObNotificationService} from '@oblique/oblique';
+import {ObNotificationService} from '@dariopog-foitt/oblique';
 import {Component, type OnInit, inject} from '@angular/core';
 import {FormBuilder, type FormGroup, Validators} from '@angular/forms';
 

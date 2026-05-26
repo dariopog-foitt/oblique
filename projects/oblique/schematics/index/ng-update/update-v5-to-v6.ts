@@ -92,7 +92,7 @@ export class UpdateV5toV6 implements ObIMigrations {
 
 	private addFontStyle(tree: Tree, font: string): void {
 		if (font !== 'none') {
-			const styleSheet = `node_modules/@oblique/oblique/styles/css/${font}.css`;
+			const styleSheet = `node_modules/@dariopog-foitt/oblique/styles/css/${font}.css`;
 			setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'styles'], (config: string[]) => {
 				if (!config.includes(styleSheet)) {
 					config.splice(config.indexOf(obliqueCssPath) + 1, 0, styleSheet);
@@ -107,7 +107,7 @@ export class UpdateV5toV6 implements ObIMigrations {
 			setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'assets'], (config: any) => {
 				config.splice(1, 0, {
 					glob: '*/**',
-					input: 'node_modules/@oblique/oblique/styles/fonts',
+					input: 'node_modules/@dariopog-foitt/oblique/styles/fonts',
 					output: 'assets/fonts',
 				});
 				return config;
@@ -136,10 +136,10 @@ export class UpdateV5toV6 implements ObIMigrations {
 
 	private adaptAssets(tree: Tree): Tree {
 		return setAngularProjectsConfig(tree, ['architect', 'build', 'options', 'assets'], (config: any) => [
-			{glob: '**/*', input: 'node_modules/@oblique/oblique/assets', output: 'assets'},
+			{glob: '**/*', input: 'node_modules/@dariopog-foitt/oblique/assets', output: 'assets'},
 			...config
-				.filter((asset: any) => asset?.input !== 'node_modules/@oblique/oblique/assets')
-				.filter((asset: any) => asset?.input !== 'node_modules/@oblique/oblique/styles'),
+				.filter((asset: any) => asset?.input !== 'node_modules/@dariopog-foitt/oblique/assets')
+				.filter((asset: any) => asset?.input !== 'node_modules/@dariopog-foitt/oblique/styles'),
 		]);
 	}
 
@@ -159,7 +159,7 @@ export class UpdateV5toV6 implements ObIMigrations {
 			return addAngularConfigInList(
 				tree,
 				['architect', 'build', 'options', 'scripts'],
-				'node_modules/@oblique/oblique/ob-features.js'
+				'node_modules/@dariopog-foitt/oblique/ob-features.js'
 			);
 		};
 	}
@@ -300,7 +300,7 @@ export class UpdateV5toV6 implements ObIMigrations {
 					addInterface(tree, filePath, 'OnDestroy');
 					addImport(tree, filePath, 'OnDestroy', '@angular/core');
 					addImport(tree, filePath, 'Subject', 'rxjs');
-					removeImport(tree, filePath, 'ObUnsubscribable', '@oblique/oblique');
+					removeImport(tree, filePath, 'ObUnsubscribable', '@dariopog-foitt/oblique');
 					replaceInFile(
 						tree,
 						filePath,

@@ -4,7 +4,7 @@ import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {By} from '@angular/platform-browser';
 import {DialogExampleSpinnerComponent} from './previews/spinner/dialog-example-spinner.component';
 import {DialogExampleDefaultComponent} from './previews/default/dialog-example-default.component';
-import {ObButtonDirective} from '@oblique/oblique';
+import {ObButtonDirective} from '@dariopog-foitt/oblique';
 
 describe(DialogCodeExamplesComponent.name, () => {
 	let component: DialogCodeExamplesComponent;

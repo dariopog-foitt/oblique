@@ -4,7 +4,7 @@ import {createCustomElement} from '@angular/elements';
 import {WINDOW, windowProvider} from '../../oblique/src/lib/utilities';
 import {ObServiceNavigationWebComponentComponent} from './app/service-navigation-web-component.component';
 import {DOCUMENT, importProvidersFrom, inject, provideAppInitializer} from '@angular/core';
-import {ObIconService, ObServiceNavigationModule, provideObliqueTranslations} from '@oblique/oblique';
+import {ObIconService, ObServiceNavigationModule, provideObliqueTranslations} from '@dariopog-foitt/oblique';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
 createApplication({

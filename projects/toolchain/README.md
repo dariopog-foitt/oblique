@@ -17,10 +17,10 @@ It includes information about the entire ecosystem, usage instructions, code sam
 
 ### New Projects
 
-The recommended way to install `@oblique/toolchain` is through Oblique's CLI.
+The recommended way to install `@dariopog-foitt/toolchain` is through Oblique's CLI.
 
 ```shell
-npx @oblique/cli@latest new <projectName>
+npx @dariopog-foitt/cli@latest new <projectName>
 ```
 
 This command creates a new project with all necessary dependencies and configurations.
@@ -30,7 +30,7 @@ This command creates a new project with all necessary dependencies and configura
 Add the Toolchain to a project with:
 
 ```shell
-npx @angular/cli@latest add @oblique/toolchain
+npx @angular/cli@latest add @dariopog-foitt/toolchain
 ```
 
 ## Content
@@ -38,13 +38,13 @@ npx @angular/cli@latest add @oblique/toolchain
 This package includes:
 
 - An ESLint plugin that provides default rules for `eslint`, `@typescript-eslint` and `@angular-eslint`
-- A **ng-add** Schematics that integrates `@oblique/toolchain` into an existing project
+- A **ng-add** Schematics that integrates `@dariopog-foitt/toolchain` into an existing project
 
 ### ng-add
 
-Running `ng add @oblique/toolchain` will:
+Running `ng add @dariopog-foitt/toolchain` will:
 
-- add `@oblique/toolchain` as a dev dependency
+- add `@dariopog-foitt/toolchain` as a dev dependency
 - add a `browserlistrc` file to ensure compatibility with supported browsers
 
 ## Tips & Best Practices

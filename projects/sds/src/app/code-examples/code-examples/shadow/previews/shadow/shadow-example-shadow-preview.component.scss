@@ -1,5 +1,5 @@
-@use "@oblique/oblique/src/styles/scss/core/variables";
-@use "@oblique/oblique/src/styles/scss/core/mixins/shadow";
+@use "@dariopog-foitt/oblique/src/styles/scss/core/variables";
+@use "@dariopog-foitt/oblique/src/styles/scss/core/mixins/shadow";
 
 .ob-drop-shadow {
 	@include shadow.ob-drop-shadow();

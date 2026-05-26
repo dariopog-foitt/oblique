@@ -1,6 +1,6 @@
 import type {HttpEvent, HttpHandler, HttpInterceptor, HttpRequest} from '@angular/common/http';
 import {Injectable, inject} from '@angular/core';
-import {ObSpinnerService} from '@oblique/oblique';
+import {ObSpinnerService} from '@dariopog-foitt/oblique';
 import {type Observable, throwError} from 'rxjs';
 import {catchError, finalize} from 'rxjs/operators';
 

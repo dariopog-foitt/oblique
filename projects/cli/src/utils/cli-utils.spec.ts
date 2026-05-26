@@ -40,7 +40,7 @@ describe('CLI Utils', () => {
 
 	describe('optionDescriptions', () => {
 		test('optionDescriptions.ob.version.description should be correct', () => {
-			expect(optionDescriptions.ob.version.description).toBe('Shows the current version of @oblique/cli');
+			expect(optionDescriptions.ob.version.description).toBe('Shows the current version of @dariopog-foitt/cli');
 		});
 
 		test('optionDescriptions.ob.help.description should be correct', () => {
@@ -175,11 +175,11 @@ Examples of use:
 
 		test('exampleUsageText should return formatted example usage text', () => {
 			const examples = [
-				{command: 'ob -v', description: ' Shows the current version of @oblique/cli'},
+				{command: 'ob -v', description: ' Shows the current version of @dariopog-foitt/cli'},
 				{command: 'ob -h', description: ' Shows a help message for the "ob" command in the console'},
 			];
 			const expectedOutput =
-				'\nExamples of use:\n\tob -v Shows the current version of @oblique/cli\n\tob -h Shows a help message for the "ob" command in the console';
+				'\nExamples of use:\n\tob -v Shows the current version of @dariopog-foitt/cli\n\tob -h Shows a help message for the "ob" command in the console';
 			const result = exampleUsageText(examples);
 			expect(result).toBe(expectedOutput);
 		});
@@ -242,12 +242,12 @@ Examples of use:
 		test('createAdditionalHelpText should return help text with padded commands', () => {
 			const title = '\nExample usages:\n';
 			const examples = [
-				{command: 'ob -v', description: 'Shows the current version of @oblique/cli'},
+				{command: 'ob -v', description: 'Shows the current version of @dariopog-foitt/cli'},
 				{command: 'ob -h', description: 'Shows a help message for the "ob" command in the console'},
 			];
 			const maxCommandWidth = 5;
 			const expectedOutput =
-				'\nExample usages:\n\tob -v     Shows the current version of @oblique/cli\n\tob -h     Shows a help message for the "ob" command in the console';
+				'\nExample usages:\n\tob -v     Shows the current version of @dariopog-foitt/cli\n\tob -h     Shows a help message for the "ob" command in the console';
 			expect(createAdditionalHelpText(title, examples, maxCommandWidth)).toBe(expectedOutput);
 		});
 	});

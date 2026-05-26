@@ -44,9 +44,9 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove form field feature');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'ObSelectDirective', '@oblique/oblique');
-				removeImport(tree, filePath, 'ObFormFieldDirective', '@oblique/oblique');
-				removeImport(tree, filePath, 'ObFormFieldModule', '@oblique/oblique');
+				removeImport(tree, filePath, 'ObSelectDirective', '@dariopog-foitt/oblique');
+				removeImport(tree, filePath, 'ObFormFieldDirective', '@dariopog-foitt/oblique');
+				removeImport(tree, filePath, 'ObFormFieldModule', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /(?:ObFormFieldModule|ObFormFieldDirective|ObSelectDirective)\s*,?\s*/g, '');
 			};
 			return applyInTree(tree, apply, filePatterns.ts);
@@ -57,7 +57,7 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove ObPaginatorDirective');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'ObPaginatorDirective', '@oblique/oblique');
+				removeImport(tree, filePath, 'ObPaginatorDirective', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /ObPaginatorDirective\s*,?\s*/g, '');
 			};
 			return applyInTree(tree, apply, filePatterns.ts);
@@ -84,8 +84,8 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove checkbox feature');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'ObCheckboxModule', '@oblique/oblique');
-				removeImport(tree, filePath, 'ObCheckboxDirective', '@oblique/oblique');
+				removeImport(tree, filePath, 'ObCheckboxModule', '@dariopog-foitt/oblique');
+				removeImport(tree, filePath, 'ObCheckboxDirective', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /(?:ObCheckboxModule|ObCheckboxDirective)\s*,?\s*/g, '');
 			};
 			return applyInTree(tree, apply, filePatterns.ts);
@@ -107,7 +107,7 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Add Oblique providers');
 			const apply = (filePath: string): void => {
-				addImport(tree, filePath, 'provideObliqueConfiguration', '@oblique/oblique');
+				addImport(tree, filePath, 'provideObliqueConfiguration', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /(?<=providers\s*:\s*)\[/, '[provideObliqueConfiguration(),\n');
 			};
 			return applyInTree(tree, apply, filePatterns.appModule);
@@ -171,7 +171,7 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove OB_MATERIAL_CONFIG');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'OB_MATERIAL_CONFIG', '@oblique/oblique');
+				removeImport(tree, filePath, 'OB_MATERIAL_CONFIG', '@dariopog-foitt/oblique');
 				replaceInFile(
 					tree,
 					filePath,
@@ -187,7 +187,7 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove ObIconModule.forRoot');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'ObIconModule', '@oblique/oblique');
+				removeImport(tree, filePath, 'ObIconModule', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /ObIconModule\.forRoot\s*\(.*?\),?\s*/s, '');
 			};
 			return applyInTree(tree, apply, filePatterns.appModule);
@@ -198,7 +198,7 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove multiTranslateLoader');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'multiTranslateLoader', '@oblique/oblique');
+				removeImport(tree, filePath, 'multiTranslateLoader', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /(?<=TranslateModule)\.forRoot\s*\(.*?\)+/s, '');
 			};
 			return applyInTree(tree, apply, filePatterns.appModule);
@@ -209,7 +209,7 @@ export class UpdateV12toV13 implements ObIMigrations {
 		return createSafeRule((tree: Tree, context: SchematicContext) => {
 			infoMigration(context, 'Remove TRANSLATION_FILES');
 			const apply = (filePath: string): void => {
-				removeImport(tree, filePath, 'TRANSLATION_FILES', '@oblique/oblique');
+				removeImport(tree, filePath, 'TRANSLATION_FILES', '@dariopog-foitt/oblique');
 				replaceInFile(tree, filePath, /\s*{\s*provide\s*:\s*TRANSLATION_FILES\s*,\s*useValue\s*:.*},?/s, '');
 			};
 			return applyInTree(tree, apply, filePatterns.appModule);

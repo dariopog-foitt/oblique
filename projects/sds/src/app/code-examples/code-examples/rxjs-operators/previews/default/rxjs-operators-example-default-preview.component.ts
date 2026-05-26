@@ -1,4 +1,4 @@
-import {obPauseWhenPageHidden} from '@oblique/oblique';
+import {obPauseWhenPageHidden} from '@dariopog-foitt/oblique';
 import {Component} from '@angular/core';
 import {timer} from 'rxjs';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';

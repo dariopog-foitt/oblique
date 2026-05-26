@@ -1,5 +1,5 @@
 import {AppComponent} from './app/app.component';
-import {ObIconService, ObStepperIntlService, WINDOW, provideObliqueTranslations} from '@oblique/oblique';
+import {ObIconService, ObStepperIntlService, WINDOW, provideObliqueTranslations} from '@dariopog-foitt/oblique';
 import {bootstrapApplication} from '@angular/platform-browser';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 import {STEPPER_GLOBAL_OPTIONS} from '@angular/cdk/stepper';

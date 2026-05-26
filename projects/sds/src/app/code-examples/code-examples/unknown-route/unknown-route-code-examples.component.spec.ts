@@ -4,7 +4,7 @@ import {IdPipe} from '../../../shared/id/id.pipe';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {UnknownRouteCodeExamplesComponent} from './unknown-route-code-examples.component';
 import {ActivatedRoute} from '@angular/router';
-import {provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 describe(UnknownRouteCodeExamplesComponent.name, () => {
 	let component: UnknownRouteCodeExamplesComponent;

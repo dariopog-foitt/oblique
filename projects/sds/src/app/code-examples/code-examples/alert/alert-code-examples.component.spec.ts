@@ -1,7 +1,7 @@
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
 import {AlertCodeExamplesComponent} from './alert-code-examples.component';
 import {TranslateService} from '@ngx-translate/core';
-import {ObAlertComponent, ObMockTranslateService} from '@oblique/oblique';
+import {ObAlertComponent, ObMockTranslateService} from '@dariopog-foitt/oblique';
 import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {By} from '@angular/platform-browser';
 

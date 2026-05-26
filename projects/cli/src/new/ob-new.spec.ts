@@ -94,7 +94,7 @@ describe('Ob new command', () => {
 					{description: 'Section header for options', expected: 'Options:'},
 					{
 						description: 'Option to output the current version of the CLI',
-						expected: 'Options: -v, --version Shows the current version of @oblique/cli ',
+						expected: 'Options: -v, --version Shows the current version of @dariopog-foitt/cli ',
 					},
 					{
 						description: 'Option for the interactive mode',
@@ -203,7 +203,7 @@ describe('Ob new command', () => {
 				test(`should call npx ${projectName} with default parameter`, () => {
 					expect(execSync).toHaveBeenNthCalledWith(
 						4,
-						`npx @angular/cli@${currentVersions['@angular/cli']} add @oblique/oblique@${currentVersions['@oblique/oblique']} --title="${projectName}" --locales="de-CH fr-CH it-CH" --environments="local dev ref test abn prod" --prefix="app" --proxy=" " --ajv --unknownRoute --httpInterceptors --no-banner --externalLink --jest --npmrc --eslint --husky`,
+						`npx @angular/cli@${currentVersions['@angular/cli']} add @dariopog-foitt/oblique@${currentVersions['@dariopog-foitt/oblique']} --title="${projectName}" --locales="de-CH fr-CH it-CH" --environments="local dev ref test abn prod" --prefix="app" --proxy=" " --ajv --unknownRoute --httpInterceptors --no-banner --externalLink --jest --npmrc --eslint --husky`,
 						{cwd: `${process.cwd()}/${projectName}`, stdio: 'inherit'}
 					);
 				});
@@ -287,8 +287,8 @@ describe('Ob new command', () => {
 
 			test(`should call npx ${options.join(', ')}`, () => {
 				const expected = options.includes('--interactive')
-					? `npx @angular/cli@${currentVersions['@angular/cli']} add @oblique/oblique@${currentVersions['@oblique/oblique']}`
-					: `npx @angular/cli@${currentVersions['@angular/cli']} add @oblique/oblique@${currentVersions['@oblique/oblique']} --title="${projectName}" --locales="de-CH fr-CH it-CH" --environments="local dev ref test abn prod" --prefix="app" --proxy=" " --ajv --unknownRoute --httpInterceptors --no-banner --externalLink --jest --npmrc --eslint --husky`;
+					? `npx @angular/cli@${currentVersions['@angular/cli']} add @dariopog-foitt/oblique@${currentVersions['@dariopog-foitt/oblique']}`
+					: `npx @angular/cli@${currentVersions['@angular/cli']} add @dariopog-foitt/oblique@${currentVersions['@dariopog-foitt/oblique']} --title="${projectName}" --locales="de-CH fr-CH it-CH" --environments="local dev ref test abn prod" --prefix="app" --proxy=" " --ajv --unknownRoute --httpInterceptors --no-banner --externalLink --jest --npmrc --eslint --husky`;
 				expect(execSync).toHaveBeenNthCalledWith(4, expected, {
 					cwd: `${process.cwd()}/${projectName}`,
 					stdio: 'inherit',

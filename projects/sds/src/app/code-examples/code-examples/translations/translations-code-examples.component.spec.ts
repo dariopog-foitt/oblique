@@ -1,5 +1,5 @@
 import {type ComponentFixture, TestBed} from '@angular/core/testing';
-import {ObButtonDirective, provideObliqueTestingConfiguration} from '@oblique/oblique';
+import {ObButtonDirective, provideObliqueTestingConfiguration} from '@dariopog-foitt/oblique';
 
 import {By} from '@angular/platform-browser';
 import {CodeExampleComponent} from '../../code-example/code-example.component';

@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import type {Colors} from './palette.model';
-import {ObEColor} from '@oblique/oblique';
+import {ObEColor} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'sb-palette',

@@ -3,7 +3,7 @@ import {
 	ObEIcon,
 	type ObIAutocompleteInputOption,
 	type ObIAutocompleteInputOptionGroup,
-} from '@oblique/oblique';
+} from '@dariopog-foitt/oblique';
 import {type AfterViewInit, ChangeDetectorRef, Component, inject} from '@angular/core';
 import {FormControl, ReactiveFormsModule} from '@angular/forms';
 import {JsonPipe} from '@angular/common';

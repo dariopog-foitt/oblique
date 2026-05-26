@@ -23,7 +23,7 @@ npm ci
 Then run the sandbox
 
 ```shell
-npm start -w @oblique/sandbox
+npm start -w @dariopog-foitt/sandbox
 ```
 
 ## Content

@@ -1,4 +1,4 @@
-import {ObEPamsEnvironment} from '@oblique/oblique';
+import {ObEPamsEnvironment} from '@dariopog-foitt/oblique';
 import type {Environment} from '../app/app.component.model';
 
 export const environment: Environment = {

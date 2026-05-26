@@ -6,7 +6,7 @@ import {CodeExampleComponent} from '../../code-example/code-example.component';
 import {NotificationCodeExamplesComponent} from './notification-code-examples.component';
 import {NotificationExampleDefaultPreviewComponent} from './previews/default/notification-example-default-preview.component';
 import {NotificationExampleOtherOptionsPreviewComponent} from './previews/other-options/notification-example-other-options-preview.component';
-import {WINDOW} from '@oblique/oblique';
+import {WINDOW} from '@dariopog-foitt/oblique';
 
 describe(NotificationCodeExamplesComponent.name, () => {
 	let component: NotificationCodeExamplesComponent;

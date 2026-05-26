@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {RouterModule} from '@angular/router';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
-import {ObColumnLayoutModule} from '@oblique/oblique';
+import {ObColumnLayoutModule} from '@dariopog-foitt/oblique';
 import {TypographyComponent} from './typography/typography.component';
 import {BlockElementsComponent} from './block-elements/block-elements.component';
 import {InlineElementComponent} from './inline-element/inline-element.component';

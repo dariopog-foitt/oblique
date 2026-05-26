@@ -1,6 +1,6 @@
 import {AsyncPipe} from '@angular/common';
 import {Component, type OnDestroy, type OnInit, inject} from '@angular/core';
-import {ObGlobalEventsService, WINDOW} from '@oblique/oblique';
+import {ObGlobalEventsService, WINDOW} from '@dariopog-foitt/oblique';
 import {type Observable, Subject, map, startWith, takeUntil, tap} from 'rxjs';
 
 @Component({

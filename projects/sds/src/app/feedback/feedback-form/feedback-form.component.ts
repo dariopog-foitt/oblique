@@ -7,7 +7,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {type Observable, debounceTime, map, startWith} from 'rxjs';
 import type {Fields, RequiredLength} from './feedback-form.model';
-import {ObButtonModule} from '@oblique/oblique';
+import {ObButtonModule} from '@dariopog-foitt/oblique';
 
 @Component({
 	selector: 'app-feedback',

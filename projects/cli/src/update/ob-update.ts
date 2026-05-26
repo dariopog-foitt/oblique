@@ -56,10 +56,10 @@ export function handleObUpdateActions(): void {
 }
 
 export function checkNeededDependencies(): void {
-	if (!isDependencyInPackage('@oblique/oblique')) {
+	if (!isDependencyInPackage('@dariopog-foitt/oblique')) {
 		console.error(
 			chalk.red(
-				`Package @oblique/oblique not found. Please install Oblique with '${ngAddOblique.command}' to ${ngAddOblique.description}.`
+				`Package @dariopog-foitt/oblique not found. Please install Oblique with '${ngAddOblique.command}' to ${ngAddOblique.description}.`
 			)
 		);
 		process.exit(1);

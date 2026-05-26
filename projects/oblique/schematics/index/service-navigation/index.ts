@@ -124,7 +124,7 @@ function mapParameter(
 }
 
 function addMasterLayoutConfig(tree: Tree, property: string, value: string | boolean, appModulePath: string): void {
-	addInjectionInClass(tree, appModulePath, 'ObMasterLayoutConfig', '@oblique/oblique');
+	addInjectionInClass(tree, appModulePath, 'ObMasterLayoutConfig', '@dariopog-foitt/oblique');
 	appendPrivateVoidFunctionToClass(tree, appModulePath, 'configureServiceNavigation');
 	addConstructor(tree, appModulePath);
 	appendCodeToFunction(tree, appModulePath, 'constructor', `this.configureServiceNavigation();`);
@@ -145,8 +145,8 @@ function mapEnvironment(tree: Tree, value: string, appModulePath: string): void 
 			'providers',
 			`{provide: OB_PAMS_CONFIGURATION, useValue: {environment: ObEEnvironment.${value}}}`
 		),
-		...addImportToModule(sourceFile, appModulePath, 'OB_PAMS_CONFIGURATION', '@oblique/oblique'),
-		...addImportToModule(sourceFile, appModulePath, 'ObEEnvironment', '@oblique/oblique'),
+		...addImportToModule(sourceFile, appModulePath, 'OB_PAMS_CONFIGURATION', '@dariopog-foitt/oblique'),
+		...addImportToModule(sourceFile, appModulePath, 'ObEEnvironment', '@dariopog-foitt/oblique'),
 	];
 	applyChanges(tree, appModulePath, changes);
 }
@@ -161,7 +161,7 @@ function addWidgetVisibility(tree: Tree, property: string, value: string, appMod
 }
 
 function mapLoginStatus(tree: Tree, value: string, appComponentPath: string): void {
-	addInjectionInClass(tree, appComponentPath, 'ObMasterLayoutService', '@oblique/oblique');
+	addInjectionInClass(tree, appComponentPath, 'ObMasterLayoutService', '@dariopog-foitt/oblique');
 	addConstructor(tree, appComponentPath);
 	appendCodeToFunction(
 		tree,
