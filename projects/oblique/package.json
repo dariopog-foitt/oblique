@@ -1,8 +1,14 @@
 {
   "name": "@dariopog-foitt/oblique",
   "version": "15.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariopog-foitt/oblique.git"
+  },
   "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
+    "registry": "https://registry.npmjs.com/",
+    "access": "public",
+    "provenance": true
   },
   "scripts": {
     "lint": "ts-node scripts/lint.ts",
