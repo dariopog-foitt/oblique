@@ -1,8 +1,8 @@
 publiccodeYmlVersion: 0.5.0
 name: Oblique
 applicationSuite: Oblique
-url: https://github.com/oblique-bit/oblique.git
-landingURL: https://github.com/oblique-bit/oblique
+url: https://github.com/dariopog-foitt/oblique.git
+landingURL: https://github.com/dariopog-foitt/oblique
 softwareVersion: 15.3.0
 releaseDate: 2026-04-30
 logo: https://avatars.githubusercontent.com/u/58680335#ext=.svg

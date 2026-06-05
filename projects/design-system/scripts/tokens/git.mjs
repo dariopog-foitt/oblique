@@ -5,7 +5,7 @@ const remote = 'github';
 
 export function checkoutThemeFiles(themesPath) {
 	removeRemote(remote);
-	addRemote(remote, 'https://github.com/oblique-bit/oblique.git');
+	addRemote(remote, 'https://github.com/dariopog-foitt/oblique.git');
 	fetchRemote(remote);
 	checkoutFolder(themesPath, 'tokens-main', remote);
 }

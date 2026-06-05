@@ -82,7 +82,7 @@ export class Changelog extends StaticScript {
 		const sortedIssues = issues ? this.sortIssues(issues) : [];
 		const issueWithLinks = this.addGitHubIssueLinks(sortedIssues);
 		const ticketsString = issueWithLinks.join(', ');
-		const refs = [`[${hash.substring(0, 8)}](https://github.com/oblique-bit/oblique/commit/${hash})`];
+		const refs = [`[${hash.substring(0, 8)}](https://github.com/dariopog-foitt/oblique/commit/${hash})`];
 		if (ticketsString) {
 			refs.push(ticketsString);
 		}
@@ -114,7 +114,7 @@ export class Changelog extends StaticScript {
 		issues.forEach((issue, index) => {
 			if (issue.includes('GitHub')) {
 				const issueNumber = issue.replace(/[^\d]/g, '');
-				issues[index] = `[${issue}](https://github.com/oblique-bit/oblique/issues/${issueNumber})`;
+				issues[index] = `[${issue}](https://github.com/dariopog-foitt/oblique/issues/${issueNumber})`;
 			}
 		});
 		return issues;
@@ -164,7 +164,7 @@ export class Changelog extends StaticScript {
 
 	private static getTitle(version: string, previousTag: string): string {
 		const date = Changelog.getReleaseDate(version);
-		return `# [${version}](https://github.com/oblique-bit/oblique/compare/${previousTag}...${version}) (${date})`;
+		return `# [${version}](https://github.com/dariopog-foitt/oblique/compare/${previousTag}...${version}) (${date})`;
 	}
 
 	private static getReleaseDate(tag: string): string {

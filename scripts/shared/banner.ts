@@ -44,7 +44,7 @@ export class Banner extends StaticScript {
 * @copyright 2020 - ${new Date().getFullYear()} Federal Office of Information Technology, Systems and Telecommunication FOITT {@link https://www.bit.admin.ch}
 * @version ${version} (released on ${releaseDate}, supported at least until ${endOfLifeDate})
 * @author Oblique team, FOITT, BS-BSC-EN4 <oblique@bit.admin.ch>
-* @license MIT {@link https://github.com/oblique-bit/oblique/blob/master/LICENSE}
+* @license MIT {@link https://github.com/dariopog-foitt/oblique/blob/master/LICENSE}
 * @see https://oblique.bit.admin.ch
 */
 `;
