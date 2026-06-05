@@ -3,7 +3,7 @@ name: Build and Publish to npm
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   publish:
@@ -21,4 +21,4 @@ jobs:
       - run: npm install -g npm@latest
       - run: npm ci
       - run: npm run build --workspace=projects/oblique
-      - run: npm publish ./dist/oblique --provenance
+      - run: npm publish ./dist/oblique --access=public
