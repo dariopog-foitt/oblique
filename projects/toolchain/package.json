@@ -1,9 +1,6 @@
 {
   "name": "@dariopog-foitt/toolchain",
   "version": "15.3.0",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
-  },
   "description": "Toolchain utilities for the Oblique ecosystem, including project configuration schematics, ESLint plugins, and supporting build scripts",
   "scripts": {
     "link": "npm run build && cd ../../dist/toolchain && npm link",

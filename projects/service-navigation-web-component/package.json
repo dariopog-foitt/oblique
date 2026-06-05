@@ -1,9 +1,6 @@
 {
   "name": "@dariopog-foitt/service-navigation-web-component",
   "version": "15.3.0",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
-  },
   "scripts": {
     "start": "ng serve",
     "lint": "ts-node scripts/lint.ts",
